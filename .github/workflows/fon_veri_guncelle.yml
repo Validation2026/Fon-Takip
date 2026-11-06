@@ -36,12 +36,11 @@ jobs:
           FONOLOJI_KEY: ${{ secrets.FONOLOJI_KEY }}
         run: |
           if [ -z "$FONOLOJI_KEY" ]; then
-            echo "::warning::FONOLOJI_KEY eklenmedi. Veri değişmeden korundu."
-            echo "updated=false" >> "$GITHUB_OUTPUT"
-          else
-            python scripts/update.py
-            echo "updated=true" >> "$GITHUB_OUTPUT"
+            echo "::error::FONOLOJI_KEY Repository Secrets altinda bulunamadi. Veri guncellemesi durduruldu."
+            exit 1
           fi
+          python scripts/update.py
+          echo "updated=true" >> "$GITHUB_OUTPUT"
       - name: Doğrulanmış verileri sürümle ve Netlify deploy tetikle
         if: steps.update.outputs.updated == 'true'
         run: |
