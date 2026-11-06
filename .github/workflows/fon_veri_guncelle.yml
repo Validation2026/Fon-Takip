@@ -1,0 +1,55 @@
+name: Fon Takip — günlük 10.00 ve 19.00 (TR)
+
+on:
+  schedule:
+    # 10.00 ve 19.00 Türkiye saati = 07.00 ve 16.00 UTC.
+    - cron: "0 7,16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fon-takip-autoupdate
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Orijinal HTML ve SHA-256 kontrolü
+        run: python scripts/bootstrap.py
+      - name: Kaynak ve veri testleri
+        run: python -m unittest discover -s tests -v
+      - name: Fonoloji / TEFAS veri güncelleme
+        id: update
+        env:
+          FONOLOJI_KEY: ${{ secrets.FONOLOJI_KEY }}
+        run: |
+          if [ -z "$FONOLOJI_KEY" ]; then
+            echo "::warning::FONOLOJI_KEY eklenmedi. Veri değişmeden korundu."
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+          else
+            python scripts/update.py
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Doğrulanmış verileri sürümle ve Netlify deploy tetikle
+        if: steps.update.outputs.updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/index.html public/data/fund_prices.json state/funds.json
+          if ! git diff --cached --quiet; then
+            git add audit/latest.json
+            git commit -m "chore(data): verified TEFAS/Fonoloji snapshot"
+            git push
+          else
+            echo "Veride yenilik yok; gereksiz Netlify deploy yapılmadı."
+          fi
