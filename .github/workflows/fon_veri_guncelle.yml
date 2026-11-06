@@ -1,6 +1,8 @@
 name: Fon Takip — günlük 10.00 ve 19.00 (TR)
 
 on:
+  push:
+    branches: [main]
   schedule:
     # 10.00 ve 19.00 Türkiye saati = 07.00 ve 16.00 UTC.
     - cron: "0 7,16 * * *"
