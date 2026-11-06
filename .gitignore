@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.env
+.netlify/
+*.tmp
+.DS_Store
+source/index.html

@@ -1,0 +1,5 @@
+[build]
+  command = "python3 scripts/bootstrap.py"
+  publish = "public"
+
+# Giriş sayfasının tasarımına, yazılarına ve tarayıcı davranışına müdahale edilmez.
