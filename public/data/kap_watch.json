@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "retrieved_at": "2026-11-09T10:01:36+03:00",
+  "retrieved_at": "2026-11-09T19:58:36+03:00",
   "status": "PILOT_VERIFIED",
   "scope": "Eight pilot funds only, not the entire fund universe",
   "watched_funds": [
@@ -1282,8 +1282,8 @@
       "payment_status": "NOT_VERIFIED",
       "payment_review_candidates": [],
       "new_disclosures_since_last_scan": [],
-      "comparison_baseline_available": false,
-      "source_portfolio_period_changed_since_last_scan": null,
+      "comparison_baseline_available": true,
+      "source_portfolio_period_changed_since_last_scan": false,
       "latest_disclosures": [
         {
           "index": 1680720,
