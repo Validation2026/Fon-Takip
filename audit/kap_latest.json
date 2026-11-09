@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-11-09T09:47:28+03:00",
+  "retrieved_at": "2026-11-09T09:50:48+03:00",
   "source": "Fonoloji KAP-derived data",
   "status": "PILOT_VERIFIED",
   "watched_funds": [
@@ -237,7 +237,7 @@
       "comparison_baseline_available": true,
       "new_disclosures_since_last_scan": [],
       "source_portfolio_period_changed_since_last_scan": false,
-      "holdings_changed_since_last_scan": null,
+      "holdings_changed_since_last_scan": false,
       "change_note": "New disclosures are computed only after a baseline scan. A changed fingerprint may be a provider correction, not a trade."
     },
     {
@@ -453,7 +453,7 @@
       "comparison_baseline_available": true,
       "new_disclosures_since_last_scan": [],
       "source_portfolio_period_changed_since_last_scan": false,
-      "holdings_changed_since_last_scan": null,
+      "holdings_changed_since_last_scan": false,
       "change_note": "New disclosures are computed only after a baseline scan. A changed fingerprint may be a provider correction, not a trade."
     }
   ],

@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-09T09:50:48+03:00",
+  "status": "PILOT_VERIFIED",
+  "scope": "Only TLY and TP2, not all funds",
+  "payment_data_verified": false,
+  "holdings_are_live_trades": false,
+  "disclaimer": "Reference-only KAP-derived data. Differences are not confirmed transactions; payment indicators require manual verification.",
+  "funds": [
+    {
+      "code": "TLY",
+      "portfolio_period": "2026-09-06",
+      "holdings_record_count": 87,
+      "comparison": {
+        "status": "CROSS_SOURCE_REFERENCE_ONLY",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-09-06",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 51,
+        "distinct_kap_codes": 57,
+        "comparable_unique_codes": 27,
+        "ambiguous_duplicate_codes": [
+          "AKBNK",
+          "AKSEN",
+          "ASELS",
+          "EKGYO",
+          "ENKAI",
+          "EREGL",
+          "FROTO",
+          "GARAN",
+          "ISCTR",
+          "KCHOL",
+          "KRDMD",
+          "MGROS",
+          "OYAKC",
+          "PGSUS",
+          "SAHOL",
+          "SISE",
+          "TCELL",
+          "THYAO",
+          "TRALT",
+          "TUPRS"
+        ],
+        "different_source_only_codes": {
+          "only_original": [
+            "BIMAS",
+            "QNB",
+            "VAKIFBANK"
+          ],
+          "only_kap": [
+            "TRDHVKAE2629",
+            "TRDTERV12719",
+            "TRDTERVK2618",
+            "TRFKYTR12715",
+            "TRFKYTRA2617",
+            "TRFTRYB12714",
+            "TRFTRYBA2626",
+            "TRFTRYBA2642",
+            "TRFTRYBE2614"
+          ]
+        },
+        "top_weight_differences": [],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "payment_status": "NOT_VERIFIED",
+      "payment_review_candidates": [
+        1664916
+      ],
+      "new_disclosures_since_last_scan": [],
+      "comparison_baseline_available": true,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "latest_disclosures": [
+        {
+          "index": 1681496,
+          "published_at": "2026-10-14T07:23:59+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1681496",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1677624,
+          "published_at": "2026-10-08T14:45:50+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1677624",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1668929,
+          "published_at": "2026-09-28T12:38:35+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1668929",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664916,
+          "published_at": "2026-09-17T16:19:45+00:00",
+          "subject": "Genel Açıklama",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664916",
+          "payment_review_candidate": true,
+          "summary_excerpt": "Katılma Payı İade Ödemeleri Hk."
+        },
+        {
+          "index": 1664890,
+          "published_at": "2026-09-17T16:11:29+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664890",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664419,
+          "published_at": "2026-09-17T06:56:36+00:00",
+          "subject": "Genel Açıklama",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664419",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664333,
+          "published_at": "2026-09-16T17:04:09+00:00",
+          "subject": "Genel Açıklama",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664333",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1663083,
+          "published_at": "2026-09-15T14:36:18+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1663083",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1662519,
+          "published_at": "2026-09-14T14:21:19+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1662519",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1662027,
+          "published_at": "2026-09-11T14:55:40+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1662027",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661593,
+          "published_at": "2026-09-10T14:30:48+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661593",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661385,
+          "published_at": "2026-09-09T23:04:37+00:00",
+          "subject": "Yatırımcı Bilgi Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661385",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661170,
+          "published_at": "2026-09-09T15:00:07+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661170",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661109,
+          "published_at": "2026-09-09T14:21:05+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661109",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1660247,
+          "published_at": "2026-09-08T13:49:33+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1660247",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1659631,
+          "published_at": "2026-09-07T14:30:00+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1659631",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1659080,
+          "published_at": "2026-09-04T14:53:07+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1659080",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1658669,
+          "published_at": "2026-09-03T16:16:54+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1658669",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657602,
+          "published_at": "2026-09-02T15:55:36+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657602",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657116,
+          "published_at": "2026-09-02T08:02:16+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657116",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ]
+    },
+    {
+      "code": "TP2",
+      "portfolio_period": "2026-08",
+      "holdings_record_count": 82,
+      "comparison": {
+        "status": "CROSS_SOURCE_REFERENCE_ONLY",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-08",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 3,
+        "distinct_kap_codes": 69,
+        "comparable_unique_codes": 2,
+        "ambiguous_duplicate_codes": [],
+        "different_source_only_codes": {
+          "only_original": [
+            "VAKIFBANK"
+          ],
+          "only_kap": [
+            "TRD061027T33",
+            "TRD080927T34",
+            "TRDHVKA92610",
+            "TRDHVKAE2629",
+            "TRDKTLMK2633",
+            "TRDNVKAE2647",
+            "TRDNVKAK2623",
+            "TRDTERV12719",
+            "TRDTERVK2618",
+            "TRFBLLYA2646",
+            "TRFDEKOK2628",
+            "TRFDSBK92626",
+            "TRFDVYS62719",
+            "TRFEMIR12716",
+            "TRFEMIR22715"
+          ]
+        },
+        "top_weight_differences": [],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "payment_status": "NOT_VERIFIED",
+      "payment_review_candidates": [
+        1664343
+      ],
+      "new_disclosures_since_last_scan": [],
+      "comparison_baseline_available": true,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "latest_disclosures": [
+        {
+          "index": 1681520,
+          "published_at": "2026-10-14T07:29:37+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1681520",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1677625,
+          "published_at": "2026-10-08T14:45:50+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1677625",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664343,
+          "published_at": "2026-09-16T17:28:08+00:00",
+          "subject": "Genel Açıklama",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664343",
+          "payment_review_candidate": true,
+          "summary_excerpt": "Katılma Payı İade Ödemeleri Hk."
+        },
+        {
+          "index": 1663076,
+          "published_at": "2026-09-15T14:34:04+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1663076",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1662517,
+          "published_at": "2026-09-14T14:19:11+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1662517",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1662026,
+          "published_at": "2026-09-11T14:53:34+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1662026",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661591,
+          "published_at": "2026-09-10T14:28:45+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661591",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661388,
+          "published_at": "2026-09-09T23:04:37+00:00",
+          "subject": "Yatırımcı Bilgi Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661388",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661096,
+          "published_at": "2026-09-09T14:18:02+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661096",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1660238,
+          "published_at": "2026-09-08T13:46:39+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1660238",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1659629,
+          "published_at": "2026-09-07T14:27:48+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1659629",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1659079,
+          "published_at": "2026-09-04T14:53:07+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1659079",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1658668,
+          "published_at": "2026-09-03T16:16:54+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1658668",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657601,
+          "published_at": "2026-09-02T15:55:36+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657601",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657110,
+          "published_at": "2026-09-02T08:02:16+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657110",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1656969,
+          "published_at": "2026-09-01T17:06:29+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1656969",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1656494,
+          "published_at": "2026-08-31T16:17:20+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1656494",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1655799,
+          "published_at": "2026-08-28T13:23:14+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1655799",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1655410,
+          "published_at": "2026-08-27T13:20:59+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1655410",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1655178,
+          "published_at": "2026-08-26T15:06:29+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1655178",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ]
+    }
+  ]
+}
