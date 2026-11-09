@@ -61,6 +61,8 @@ def fetch():
                         for label, probe_url in [
                             ("quota", "https://fonoloji.com/v1/quota"),
                             ("funds", "https://fonoloji.com/v1/funds?limit=2"),
+                            ("funds_offset", "https://fonoloji.com/v1/funds?limit=2&offset=2"),
+                            ("funds_page", "https://fonoloji.com/v1/funds?limit=2&page=2"),
                         ]:
                             probe_req = urllib.request.Request(
                                 probe_url,
@@ -76,6 +78,8 @@ def fetch():
                                 }
                                 samples = [v[0] for v in payload.values() if isinstance(v,list) and v and isinstance(v[0],dict)]
                                 if samples:shape["sample_fields"]=list(samples[0])
+                                if "items" in payload:shape["sample_codes"]=[v.get("code") for v in payload["items"][:2]]
+                                if label=="quota":shape["limits"]=payload.get("limits");shape["remaining"]=payload.get("remaining")
                                 print("API_DIAGNOSTIC",label,json.dumps(shape,ensure_ascii=False),flush=True)
                     except Exception as diagnostic_exc:
                         print("API_DIAGNOSTIC_FAILED",type(diagnostic_exc).__name__,str(diagnostic_exc)[:150],flush=True)
