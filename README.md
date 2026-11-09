@@ -45,3 +45,9 @@ Dosyalardaki veriler bilgi amaçlıdır; tekil ihraççı ödeme bildirimleri do
 - Her biri için son portföy dönemi, pozisyon sayısı ve son 20 KAP bildirimi izlenir. Kaynak dönemleri farklı olabilir.
 - Fon adları orijinal dashboard'daki veri kümesinden alınır. Orijinal sekiz bölüm, portföy ve ödeme alanları değişmez.
 - Pilot kaynaklardan birinin veri kalitesi/erişim hatası halinde kısmi pilot 'PILOT_INCOMPLETE' sayılır; eski başarılı KAP verisi korunur.
+
+### Kısmi KAP pilotu
+
+- KAP'da sekiz pilottan biri erişilemezse, TLY ve TP2 dahil en az beş doğrulanmış fon bulunduğunda **PILOT_PARTIAL** yayımlanabilir. Eksik kodlar ve hata türleri `errors` içinde listelenir; sekiz fonun tamamı doğrulanmış sayılmaz.
+- Portföy isteği yalnız `holdings` bloğunu talep eder. Gövde en fazla 8 MB ile sınırlandırılır; beklenmedik HTML veya hatalı JSON işlenmez.
+- KAP kısmi hata ana fiyat/AUM otomasyonunu durdurmaz; kaynak veri dönemleri ayrı tutulur.

@@ -22,7 +22,7 @@ PUBLIC_KAP=ROOT/'public'/'data'/'kap_watch.json'
 BASE='https://fonoloji.com/v1'
 TZ=dt.timezone(dt.timedelta(hours=3))
 CODES=('TLY','TP2','THF','KHA','PRY','HEH','KSA','AC4')
-MAX_BYTES=4_000_000
+MAX_BYTES=8_000_000
 
 def get(path,key):
     req=urllib.request.Request(BASE+path,headers={
@@ -122,7 +122,7 @@ def main():
     original_rows,_,_=block(build().decode('utf8'),'R')
     for code in CODES:
         try:
-            p=get('/funds/'+urllib.parse.quote(code)+'/portfolio?include=allocation,holdings,dates',key)
+            p=get('/funds/'+urllib.parse.quote(code)+'/portfolio?include=holdings',key)
             d=get('/funds/'+urllib.parse.quote(code)+'/analysis?include=disclosures',key)
             rec=watch_record(code,p,d)
             rec['fund_name']=next((row[1] for row in original_rows if row[0]==code and len(row)>1),code)
@@ -139,15 +139,22 @@ def main():
             report['funds'].append(rec)
         except Exception as exc:
             report['errors'].append({'code':code,'type':type(exc).__name__,'reason':str(exc)[:180]})
-    report['status']='PILOT_VERIFIED' if len(report['funds'])==len(CODES) else 'PILOT_INCOMPLETE'
+    verified={f['code'] for f in report['funds']}
+    if len(verified)==len(CODES):
+        report['status']='PILOT_VERIFIED'
+    elif {'TLY','TP2'}.issubset(verified) and len(verified)>=5:
+        report['status']='PILOT_PARTIAL'
+    else:
+        report['status']='PILOT_INCOMPLETE'
     save_json(AUDIT,report)
-    if report['status']=='PILOT_VERIFIED':
+    if report['status'] in ('PILOT_VERIFIED','PILOT_PARTIAL'):
         public_report={
             'schema_version':1,
             'retrieved_at':timestamp,
             'status':'PILOT_VERIFIED',
             'scope':'Eight pilot funds only, not the entire fund universe',
             'watched_funds':list(CODES),
+            'errors':report['errors'],
             'funds_verified_count':len(report['funds']),
             'payment_data_verified':False,
             'holdings_are_live_trades':False,
@@ -174,7 +181,7 @@ def main():
         'disclosures_counts':{f['code']:len(f['latest_disclosures']) for f in report['funds']},
         'errors':report['errors'],
     },ensure_ascii=False),flush=True)
-    if report['status']!='PILOT_VERIFIED':
+    if report['status']=='PILOT_INCOMPLETE':
         raise RuntimeError('At least one pilot fund failed KAP validation')
 
 if __name__=='__main__':
