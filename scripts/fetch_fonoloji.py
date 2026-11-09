@@ -53,7 +53,33 @@ def fetch():
                 if response.status!=200: raise RuntimeError(f"HTTP {response.status}")
                 body=response.read(10_000_001)
                 if len(body)>10_000_000: raise ValueError("CSV çok büyük")
-                return parse_csv(body)
+                rows = parse_csv(body)
+                if len(rows) < 2000:
+                    # Gecici tanilama: gizli API anahtari ve fon verileri loglanmaz.
+                    try:
+                        import json
+                        for label, probe_url in [
+                            ("quota", "https://fonoloji.com/v1/quota"),
+                            ("funds", "https://fonoloji.com/v1/funds?limit=2"),
+                        ]:
+                            probe_req = urllib.request.Request(
+                                probe_url,
+                                headers={"X-API-Key":key, "Accept":"application/json"},
+                            )
+                            with urllib.request.urlopen(probe_req,timeout=20) as resp:
+                                payload = json.load(resp)
+                            if isinstance(payload,dict):
+                                shape = {
+                                    "top_keys":list(payload),
+                                    "list_shapes":{k:len(v) for k,v in payload.items() if isinstance(v,list)},
+                                    "meta":{k:v for k,v in payload.items() if k in ("_meta","pagination","total","count","page","limit","offset")},
+                                }
+                                samples = [v[0] for v in payload.values() if isinstance(v,list) and v and isinstance(v[0],dict)]
+                                if samples:shape["sample_fields"]=list(samples[0])
+                                print("API_DIAGNOSTIC",label,json.dumps(shape,ensure_ascii=False),flush=True)
+                    except Exception as diagnostic_exc:
+                        print("API_DIAGNOSTIC_FAILED",type(diagnostic_exc).__name__,str(diagnostic_exc)[:150],flush=True)
+                return rows
         except (urllib.error.HTTPError,urllib.error.URLError,TimeoutError,OSError) as exc:
             err=exc
             if isinstance(exc,urllib.error.HTTPError) and exc.code in (400,401,403,404,429):
