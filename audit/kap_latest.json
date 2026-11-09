@@ -1,7 +1,7 @@
 {
-  "retrieved_at": "2026-11-09T09:59:10+03:00",
+  "retrieved_at": "2026-11-09T10:01:36+03:00",
   "source": "Fonoloji KAP-derived data",
-  "status": "PILOT_INCOMPLETE",
+  "status": "PILOT_VERIFIED",
   "watched_funds": [
     "TLY",
     "TP2",
@@ -681,10 +681,10 @@
         "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
       },
       "holdings_fingerprint": "a52ea25e1e765bae368217baf9b0ccda0fa103a70fc7273cbf29a6d44b7ff595",
-      "comparison_baseline_available": false,
+      "comparison_baseline_available": true,
       "new_disclosures_since_last_scan": [],
-      "source_portfolio_period_changed_since_last_scan": null,
-      "holdings_changed_since_last_scan": null,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "holdings_changed_since_last_scan": false,
       "change_note": "New disclosures are computed only after a baseline scan. A changed fingerprint may be a provider correction, not a trade."
     },
     {
@@ -1041,10 +1041,10 @@
         "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
       },
       "holdings_fingerprint": "fc790b8dadc88c028b14cd0144dc5a7e0274d1fb901ba31ad03398649bc6c327",
-      "comparison_baseline_available": false,
+      "comparison_baseline_available": true,
       "new_disclosures_since_last_scan": [],
-      "source_portfolio_period_changed_since_last_scan": null,
-      "holdings_changed_since_last_scan": null,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "holdings_changed_since_last_scan": false,
       "change_note": "New disclosures are computed only after a baseline scan. A changed fingerprint may be a provider correction, not a trade."
     },
     {
@@ -1259,6 +1259,224 @@
         "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
       },
       "holdings_fingerprint": "eff319061194dcd4041e0764cbeebedd19619067b98bada2372268f366c1eb61",
+      "comparison_baseline_available": true,
+      "new_disclosures_since_last_scan": [],
+      "source_portfolio_period_changed_since_last_scan": false,
+      "holdings_changed_since_last_scan": false,
+      "change_note": "New disclosures are computed only after a baseline scan. A changed fingerprint may be a provider correction, not a trade."
+    },
+    {
+      "code": "HEH",
+      "portfolio_period": "2026-09-13",
+      "holdings_report_publish_date": 1789571943000,
+      "holdings_record_count": 140,
+      "latest_disclosures": [
+        {
+          "index": 1680720,
+          "published_at": "2026-10-13T14:04:44+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1680720",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664244,
+          "published_at": "2026-09-16T15:19:03+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664244",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1663733,
+          "published_at": "2026-09-16T08:50:33+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1663733",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661249,
+          "published_at": "2026-09-09T15:21:07+00:00",
+          "subject": "Kredi Kullanımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661249",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661076,
+          "published_at": "2026-09-09T14:12:21+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661076",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657470,
+          "published_at": "2026-09-02T14:59:07+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657470",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1646679,
+          "published_at": "2026-08-10T14:18:34+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1646679",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1641583,
+          "published_at": "2026-07-31T15:55:26+00:00",
+          "subject": "Performans Sunum Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1641583",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1633690,
+          "published_at": "2026-07-14T15:04:45+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1633690",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1629823,
+          "published_at": "2026-07-08T15:31:07+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1629823",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1629528,
+          "published_at": "2026-07-08T15:00:27+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1629528",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1614856,
+          "published_at": "2026-06-08T15:05:48+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1614856",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1606983,
+          "published_at": "2026-05-13T15:20:06+00:00",
+          "subject": "Kredi Kullanımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1606983",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1604735,
+          "published_at": "2026-05-11T14:08:38+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1604735",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1595422,
+          "published_at": "2026-04-20T13:02:03+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1595422",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1593023,
+          "published_at": "2026-04-14T11:17:10+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1593023",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1589057,
+          "published_at": "2026-04-08T14:39:34+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1589057",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1587809,
+          "published_at": "2026-04-08T08:38:33+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1587809",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1579617,
+          "published_at": "2026-03-30T19:41:03+00:00",
+          "subject": "BYF, Fon Finansal Rapor",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1579617",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1568821,
+          "published_at": "2026-03-09T14:20:52+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1568821",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ],
+      "payment_review_candidates": [],
+      "payment_review_note": "A payment keyword is a review flag, NEVER proof of payment or non-payment.",
+      "payment_status": "NOT_VERIFIED",
+      "payment_status_note": "Bildirim basligi veya AI ozeti odeme gerceklesti kaniti sayilmaz.",
+      "holdings_used_in_original_dashboard": false,
+      "fund_name": "HEDEF PORTFÖY ALGO EVEREST İSTATİSTİKSEL ARBİTRAJ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "original_vs_latest": {
+        "status": "CROSS_SOURCE_REFERENCE_ONLY",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-09-13",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 57,
+        "distinct_kap_codes": 57,
+        "comparable_unique_codes": 10,
+        "ambiguous_duplicate_codes": [
+          "AEFES",
+          "AKBNK",
+          "AKSEN",
+          "ALARK",
+          "ARCLK",
+          "ASELS",
+          "ASTOR",
+          "BIMAS",
+          "BRSAN",
+          "CIMSA",
+          "DOAS",
+          "DOHOL",
+          "EKGYO",
+          "ENJSA",
+          "ENKAI",
+          "EREGL",
+          "FROTO",
+          "GARAN",
+          "GUBRF",
+          "HALKB"
+        ],
+        "different_source_only_codes": {
+          "only_original": [],
+          "only_kap": []
+        },
+        "top_weight_differences": [],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "holdings_fingerprint": "479272895f744c28c1f226f814c691d66af7aee8bb4cf3c74cef105f04b21fb2",
       "comparison_baseline_available": false,
       "new_disclosures_since_last_scan": [],
       "source_portfolio_period_changed_since_last_scan": null,
@@ -1479,10 +1697,10 @@
         "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
       },
       "holdings_fingerprint": "30d2f7abfe6debe45dd4782e647bbc0fb87de99a02191c218e7699c93ab83ec8",
-      "comparison_baseline_available": false,
+      "comparison_baseline_available": true,
       "new_disclosures_since_last_scan": [],
-      "source_portfolio_period_changed_since_last_scan": null,
-      "holdings_changed_since_last_scan": null,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "holdings_changed_since_last_scan": false,
       "change_note": "New disclosures are computed only after a baseline scan. A changed fingerprint may be a provider correction, not a trade."
     },
     {
@@ -1688,19 +1906,13 @@
         "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
       },
       "holdings_fingerprint": "07dfb0abd461cf34f503e3b26f0341d474e20adc9cb8652234b9ef8cf606be90",
-      "comparison_baseline_available": false,
+      "comparison_baseline_available": true,
       "new_disclosures_since_last_scan": [],
-      "source_portfolio_period_changed_since_last_scan": null,
-      "holdings_changed_since_last_scan": null,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "holdings_changed_since_last_scan": false,
       "change_note": "New disclosures are computed only after a baseline scan. A changed fingerprint may be a provider correction, not a trade."
     }
   ],
-  "errors": [
-    {
-      "code": "HEH",
-      "type": "ValueError",
-      "reason": "Unexpected KAP source size/format"
-    }
-  ],
+  "errors": [],
   "note": "Read-only pilot. No official KAP API subscription; no payment/portfolio fields on the original site are edited."
 }

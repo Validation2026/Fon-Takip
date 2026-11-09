@@ -1,14 +1,27 @@
 {
   "schema_version": 1,
-  "retrieved_at": "2026-11-09T09:50:48+03:00",
+  "retrieved_at": "2026-11-09T10:01:36+03:00",
   "status": "PILOT_VERIFIED",
-  "scope": "Only TLY and TP2, not all funds",
+  "scope": "Eight pilot funds only, not the entire fund universe",
+  "watched_funds": [
+    "TLY",
+    "TP2",
+    "THF",
+    "KHA",
+    "PRY",
+    "HEH",
+    "KSA",
+    "AC4"
+  ],
+  "errors": [],
+  "funds_verified_count": 8,
   "payment_data_verified": false,
   "holdings_are_live_trades": false,
   "disclaimer": "Reference-only KAP-derived data. Differences are not confirmed transactions; payment indicators require manual verification.",
   "funds": [
     {
       "code": "TLY",
+      "fund_name": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "portfolio_period": "2026-09-06",
       "holdings_record_count": 87,
       "comparison": {
@@ -235,6 +248,7 @@
     },
     {
       "code": "TP2",
+      "fund_name": "TERA PORTFÖY PARA PİYASASI (TL) FONU",
       "portfolio_period": "2026-08",
       "holdings_record_count": 82,
       "comparison": {
@@ -437,6 +451,1412 @@
           "published_at": "2026-08-26T15:06:29+00:00",
           "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
           "kap_url": "https://www.kap.org.tr/tr/Bildirim/1655178",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ]
+    },
+    {
+      "code": "THF",
+      "fund_name": "TERA PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "portfolio_period": "2026-08",
+      "holdings_record_count": 116,
+      "comparison": {
+        "status": "CROSS_SOURCE_REFERENCE_ONLY",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-08",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 78,
+        "distinct_kap_codes": 79,
+        "comparable_unique_codes": 44,
+        "ambiguous_duplicate_codes": [
+          "AEFES",
+          "AKBNK",
+          "AKSEN",
+          "ASELS",
+          "ASTOR",
+          "BIMAS",
+          "BRSAN",
+          "CIMSA",
+          "EKGYO",
+          "ENKAI",
+          "EREGL",
+          "FROTO",
+          "GARAN",
+          "GUBRF",
+          "ISCTR",
+          "KCHOL",
+          "KRDMD",
+          "MGROS",
+          "OYAKC",
+          "PETKM"
+        ],
+        "different_source_only_codes": {
+          "only_original": [],
+          "only_kap": [
+            "TRFDEKO22717"
+          ]
+        },
+        "top_weight_differences": [],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "payment_status": "NOT_VERIFIED",
+      "payment_review_candidates": [
+        1664918,
+        1664344
+      ],
+      "new_disclosures_since_last_scan": [],
+      "comparison_baseline_available": true,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "latest_disclosures": [
+        {
+          "index": 1681478,
+          "published_at": "2026-10-14T07:20:37+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1681478",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1678645,
+          "published_at": "2026-10-09T15:36:21+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1678645",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1677619,
+          "published_at": "2026-10-08T14:45:49+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1677619",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1677541,
+          "published_at": "2026-10-08T14:23:55+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1677541",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1676946,
+          "published_at": "2026-10-08T12:49:56+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1676946",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1668932,
+          "published_at": "2026-09-28T12:41:25+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1668932",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664918,
+          "published_at": "2026-09-17T16:20:15+00:00",
+          "subject": "Genel Açıklama",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664918",
+          "payment_review_candidate": true,
+          "summary_excerpt": "Katılma Payı İade Ödemeleri Hk."
+        },
+        {
+          "index": 1664888,
+          "published_at": "2026-09-17T16:11:03+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664888",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664344,
+          "published_at": "2026-09-16T17:35:10+00:00",
+          "subject": "Genel Açıklama",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664344",
+          "payment_review_candidate": true,
+          "summary_excerpt": "Katılma Payı İade Ödemeleri Hk."
+        },
+        {
+          "index": 1661383,
+          "published_at": "2026-09-09T23:04:37+00:00",
+          "subject": "Yatırımcı Bilgi Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661383",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657113,
+          "published_at": "2026-09-02T08:02:16+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657113",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1649011,
+          "published_at": "2026-08-13T09:31:11+00:00",
+          "subject": "Yatırımcı Bilgi Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1649011",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1642299,
+          "published_at": "2026-08-03T15:14:56+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1642299",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1641265,
+          "published_at": "2026-07-31T14:28:11+00:00",
+          "subject": "Performans Sunum Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1641265",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1636273,
+          "published_at": "2026-07-23T16:04:21+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1636273",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1635955,
+          "published_at": "2026-07-23T08:31:05+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1635955",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1632907,
+          "published_at": "2026-07-13T15:57:28+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1632907",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1630100,
+          "published_at": "2026-07-08T17:08:38+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1630100",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1625388,
+          "published_at": "2026-07-06T15:40:14+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1625388",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1622286,
+          "published_at": "2026-07-01T08:25:29+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1622286",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ]
+    },
+    {
+      "code": "KHA",
+      "fund_name": "PARDUS PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "portfolio_period": "2026-09",
+      "holdings_record_count": 56,
+      "comparison": {
+        "status": "CROSS_SOURCE_REFERENCE_ONLY",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-09",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 75,
+        "distinct_kap_codes": 54,
+        "comparable_unique_codes": 28,
+        "ambiguous_duplicate_codes": [
+          "AKBNK",
+          "ASELS",
+          "BIMAS",
+          "EKGYO",
+          "EREGL",
+          "GARAN",
+          "GUBRF",
+          "ISCTR",
+          "KCHOL",
+          "MGROS",
+          "PETKM",
+          "PGSUS",
+          "SAHOL",
+          "SISE",
+          "TAVHL",
+          "TCELL",
+          "THYAO",
+          "TOASO",
+          "TUPRS",
+          "ULKER"
+        ],
+        "different_source_only_codes": {
+          "only_original": [
+            "AC4",
+            "ANELE",
+            "ATATR",
+            "BIZIM",
+            "BRKO",
+            "CWENE",
+            "DSTKF",
+            "EUPWR",
+            "GESAN",
+            "HALKB",
+            "HEDEF",
+            "KORDS",
+            "PKV",
+            "PSGYO",
+            "SASA"
+          ],
+          "only_kap": [
+            "CITAS",
+            "KTLEV",
+            "NETGL",
+            "OZATD"
+          ]
+        },
+        "top_weight_differences": [
+          {
+            "asset_code": "PIS",
+            "original_weight_pct": 2.64,
+            "latest_weight_pct": 11.06,
+            "difference_percentage_points": 8.42
+          },
+          {
+            "asset_code": "SELEC",
+            "original_weight_pct": 5.76,
+            "latest_weight_pct": 1.27,
+            "difference_percentage_points": -4.49
+          },
+          {
+            "asset_code": "TRHOL",
+            "original_weight_pct": 4.89,
+            "latest_weight_pct": 0.52,
+            "difference_percentage_points": -4.37
+          },
+          {
+            "asset_code": "PEKGY",
+            "original_weight_pct": 6.52,
+            "latest_weight_pct": 3.41,
+            "difference_percentage_points": -3.11
+          },
+          {
+            "asset_code": "BIGEN",
+            "original_weight_pct": 3.85,
+            "latest_weight_pct": 1.43,
+            "difference_percentage_points": -2.42
+          },
+          {
+            "asset_code": "ALKLC",
+            "original_weight_pct": 2.97,
+            "latest_weight_pct": 1.38,
+            "difference_percentage_points": -1.59
+          },
+          {
+            "asset_code": "TTKOM",
+            "original_weight_pct": 1.09,
+            "latest_weight_pct": 2.15,
+            "difference_percentage_points": 1.06
+          },
+          {
+            "asset_code": "GLRYH",
+            "original_weight_pct": 0.84,
+            "latest_weight_pct": 0.01,
+            "difference_percentage_points": -0.83
+          },
+          {
+            "asset_code": "ENJSA",
+            "original_weight_pct": 0.51,
+            "latest_weight_pct": 1.31,
+            "difference_percentage_points": 0.8
+          },
+          {
+            "asset_code": "KRDMD",
+            "original_weight_pct": 0.41,
+            "latest_weight_pct": 1.09,
+            "difference_percentage_points": 0.68
+          },
+          {
+            "asset_code": "FROTO",
+            "original_weight_pct": 0.24,
+            "latest_weight_pct": 0.91,
+            "difference_percentage_points": 0.67
+          },
+          {
+            "asset_code": "ARCLK",
+            "original_weight_pct": 0.22,
+            "latest_weight_pct": 0.8,
+            "difference_percentage_points": 0.58
+          },
+          {
+            "asset_code": "TKFEN",
+            "original_weight_pct": 0.15,
+            "latest_weight_pct": 0.69,
+            "difference_percentage_points": 0.54
+          },
+          {
+            "asset_code": "ENKAI",
+            "original_weight_pct": 0.32,
+            "latest_weight_pct": 0.82,
+            "difference_percentage_points": 0.5
+          },
+          {
+            "asset_code": "AEFES",
+            "original_weight_pct": 0.22,
+            "latest_weight_pct": 0.7,
+            "difference_percentage_points": 0.48
+          },
+          {
+            "asset_code": "SKBNK",
+            "original_weight_pct": 0.53,
+            "latest_weight_pct": 0.06,
+            "difference_percentage_points": -0.47
+          },
+          {
+            "asset_code": "DOHOL",
+            "original_weight_pct": 0.19,
+            "latest_weight_pct": 0.64,
+            "difference_percentage_points": 0.45
+          },
+          {
+            "asset_code": "ISMEN",
+            "original_weight_pct": 0.12,
+            "latest_weight_pct": 0.44,
+            "difference_percentage_points": 0.32
+          },
+          {
+            "asset_code": "BIOEN",
+            "original_weight_pct": 0.17,
+            "latest_weight_pct": 0.48,
+            "difference_percentage_points": 0.31
+          },
+          {
+            "asset_code": "AGHOL",
+            "original_weight_pct": 0.1,
+            "latest_weight_pct": 0.39,
+            "difference_percentage_points": 0.29
+          }
+        ],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "payment_status": "NOT_VERIFIED",
+      "payment_review_candidates": [],
+      "new_disclosures_since_last_scan": [],
+      "comparison_baseline_available": true,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "latest_disclosures": [
+        {
+          "index": 1692624,
+          "published_at": "2026-11-04T15:29:56+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1692624",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1679290,
+          "published_at": "2026-10-12T12:17:36+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1679290",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1676206,
+          "published_at": "2026-10-08T11:00:23+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1676206",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1675396,
+          "published_at": "2026-10-07T16:13:38+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1675396",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1674248,
+          "published_at": "2026-10-07T08:26:22+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1674248",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1658599,
+          "published_at": "2026-09-03T15:18:10+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1658599",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1643052,
+          "published_at": "2026-08-04T15:19:10+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1643052",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1638835,
+          "published_at": "2026-07-29T15:17:38+00:00",
+          "subject": "Performans Sunum Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1638835",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1631201,
+          "published_at": "2026-07-09T15:16:03+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1631201",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1627235,
+          "published_at": "2026-07-07T15:19:20+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1627235",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1627178,
+          "published_at": "2026-07-07T15:17:50+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1627178",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1623271,
+          "published_at": "2026-07-02T15:20:11+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1623271",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1612129,
+          "published_at": "2026-06-02T15:13:28+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1612129",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1604988,
+          "published_at": "2026-05-11T15:11:50+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1604988",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1590728,
+          "published_at": "2026-04-10T12:32:36+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1590728",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1585668,
+          "published_at": "2026-04-07T08:42:08+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1585668",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1585389,
+          "published_at": "2026-04-07T07:25:04+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1585389",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1583040,
+          "published_at": "2026-04-02T15:47:22+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1583040",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1576026,
+          "published_at": "2026-03-26T03:42:02+00:00",
+          "subject": "BYF, Fon Finansal Rapor",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1576026",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1565940,
+          "published_at": "2026-03-04T15:29:14+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1565940",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ]
+    },
+    {
+      "code": "PRY",
+      "fund_name": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "portfolio_period": "2026-08",
+      "holdings_record_count": 96,
+      "comparison": {
+        "status": "CROSS_SOURCE_REFERENCE_ONLY",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-08",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 8,
+        "distinct_kap_codes": 91,
+        "comparable_unique_codes": 6,
+        "ambiguous_duplicate_codes": [],
+        "different_source_only_codes": {
+          "only_original": [
+            "HALKBANK",
+            "ODEABANK"
+          ],
+          "only_kap": [
+            "TRB100227T13",
+            "TRD151227T14",
+            "TRDDGERA2617",
+            "TRDDKVR12728",
+            "TRDDKVRA2628",
+            "TRDDKYL12717",
+            "TRDHVKAE2629",
+            "TRDHVKAK2613",
+            "TRDNVKA12715",
+            "TRDNVKA92618",
+            "TRDNVKA92626",
+            "TRDNVKAA2633",
+            "TRDNVKAE2613",
+            "TRDNVKAK2631",
+            "TRFADLV62714"
+          ]
+        },
+        "top_weight_differences": [],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "payment_status": "NOT_VERIFIED",
+      "payment_review_candidates": [
+        1662993
+      ],
+      "new_disclosures_since_last_scan": [],
+      "comparison_baseline_available": true,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "latest_disclosures": [
+        {
+          "index": 1678749,
+          "published_at": "2026-10-09T18:22:48+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1678749",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1678719,
+          "published_at": "2026-10-09T18:14:05+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1678719",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1678710,
+          "published_at": "2026-10-09T18:13:36+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1678710",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1678442,
+          "published_at": "2026-10-09T10:34:09+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1678442",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1671762,
+          "published_at": "2026-10-05T08:35:56+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1671762",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1662993,
+          "published_at": "2026-09-15T13:52:30+00:00",
+          "subject": "Genel Açıklama",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1662993",
+          "payment_review_candidate": true,
+          "summary_excerpt": "Katılma Payı İade Ödemeleri hk.\n"
+        },
+        {
+          "index": 1660307,
+          "published_at": "2026-09-08T14:11:30+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1660307",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1659786,
+          "published_at": "2026-09-07T15:59:37+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1659786",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1659197,
+          "published_at": "2026-09-04T16:24:20+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1659197",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1658723,
+          "published_at": "2026-09-04T06:45:48+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1658723",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657785,
+          "published_at": "2026-09-03T07:18:51+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657785",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657782,
+          "published_at": "2026-09-03T07:18:26+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657782",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1656403,
+          "published_at": "2026-08-31T15:06:11+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1656403",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1655880,
+          "published_at": "2026-08-28T15:06:45+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1655880",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1655495,
+          "published_at": "2026-08-27T15:49:37+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1655495",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1655493,
+          "published_at": "2026-08-27T15:44:41+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1655493",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1649329,
+          "published_at": "2026-08-13T14:33:55+00:00",
+          "subject": "Kredi Kullanımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1649329",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1648983,
+          "published_at": "2026-08-13T07:59:39+00:00",
+          "subject": "Kredi Kullanımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1648983",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1643428,
+          "published_at": "2026-08-05T09:08:00+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1643428",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1641203,
+          "published_at": "2026-07-31T14:01:17+00:00",
+          "subject": "Performans Sunum Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1641203",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ]
+    },
+    {
+      "code": "HEH",
+      "fund_name": "HEDEF PORTFÖY ALGO EVEREST İSTATİSTİKSEL ARBİTRAJ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "portfolio_period": "2026-09-13",
+      "holdings_record_count": 140,
+      "comparison": {
+        "status": "CROSS_SOURCE_REFERENCE_ONLY",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-09-13",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 57,
+        "distinct_kap_codes": 57,
+        "comparable_unique_codes": 10,
+        "ambiguous_duplicate_codes": [
+          "AEFES",
+          "AKBNK",
+          "AKSEN",
+          "ALARK",
+          "ARCLK",
+          "ASELS",
+          "ASTOR",
+          "BIMAS",
+          "BRSAN",
+          "CIMSA",
+          "DOAS",
+          "DOHOL",
+          "EKGYO",
+          "ENJSA",
+          "ENKAI",
+          "EREGL",
+          "FROTO",
+          "GARAN",
+          "GUBRF",
+          "HALKB"
+        ],
+        "different_source_only_codes": {
+          "only_original": [],
+          "only_kap": []
+        },
+        "top_weight_differences": [],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "payment_status": "NOT_VERIFIED",
+      "payment_review_candidates": [],
+      "new_disclosures_since_last_scan": [],
+      "comparison_baseline_available": false,
+      "source_portfolio_period_changed_since_last_scan": null,
+      "latest_disclosures": [
+        {
+          "index": 1680720,
+          "published_at": "2026-10-13T14:04:44+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1680720",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664244,
+          "published_at": "2026-09-16T15:19:03+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664244",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1663733,
+          "published_at": "2026-09-16T08:50:33+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1663733",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661249,
+          "published_at": "2026-09-09T15:21:07+00:00",
+          "subject": "Kredi Kullanımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661249",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661076,
+          "published_at": "2026-09-09T14:12:21+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661076",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657470,
+          "published_at": "2026-09-02T14:59:07+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657470",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1646679,
+          "published_at": "2026-08-10T14:18:34+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1646679",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1641583,
+          "published_at": "2026-07-31T15:55:26+00:00",
+          "subject": "Performans Sunum Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1641583",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1633690,
+          "published_at": "2026-07-14T15:04:45+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1633690",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1629823,
+          "published_at": "2026-07-08T15:31:07+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1629823",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1629528,
+          "published_at": "2026-07-08T15:00:27+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1629528",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1614856,
+          "published_at": "2026-06-08T15:05:48+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1614856",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1606983,
+          "published_at": "2026-05-13T15:20:06+00:00",
+          "subject": "Kredi Kullanımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1606983",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1604735,
+          "published_at": "2026-05-11T14:08:38+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1604735",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1595422,
+          "published_at": "2026-04-20T13:02:03+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1595422",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1593023,
+          "published_at": "2026-04-14T11:17:10+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1593023",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1589057,
+          "published_at": "2026-04-08T14:39:34+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1589057",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1587809,
+          "published_at": "2026-04-08T08:38:33+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1587809",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1579617,
+          "published_at": "2026-03-30T19:41:03+00:00",
+          "subject": "BYF, Fon Finansal Rapor",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1579617",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1568821,
+          "published_at": "2026-03-09T14:20:52+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1568821",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ]
+    },
+    {
+      "code": "KSA",
+      "fund_name": "HEDEF PORTFÖY KISA VADELİ SERBEST (TL) FON",
+      "portfolio_period": "2026-09-20",
+      "holdings_record_count": 77,
+      "comparison": {
+        "status": "INSUFFICIENT_COMPARABLE_CODES",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-09-20",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 6,
+        "distinct_kap_codes": 67,
+        "comparable_unique_codes": 0,
+        "ambiguous_duplicate_codes": [],
+        "different_source_only_codes": {
+          "only_original": [
+            "ANADOLUBANK",
+            "DENIZBANK",
+            "HALKBANK",
+            "QNB",
+            "TPP",
+            "VAKIFBANK"
+          ],
+          "only_kap": [
+            "TRDHDFVE2623",
+            "TRDHDFVK2617",
+            "TRDZKBV12725",
+            "TRDZKBVK2610",
+            "TRFADLVE2612",
+            "TRFAKADA2612",
+            "TRFBFOK32717",
+            "TRFBVYSK2611",
+            "TRFCGDF12718",
+            "TRFCGDF32724",
+            "TRFDBNK72728",
+            "TRFDEKOK2610",
+            "TRFDGRVK2612",
+            "TRFDVYS32712",
+            "TRFDVYS62719"
+          ]
+        },
+        "top_weight_differences": [],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "payment_status": "NOT_VERIFIED",
+      "payment_review_candidates": [],
+      "new_disclosures_since_last_scan": [],
+      "comparison_baseline_available": true,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "latest_disclosures": [
+        {
+          "index": 1680753,
+          "published_at": "2026-10-13T14:08:46+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1680753",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664920,
+          "published_at": "2026-09-17T16:20:50+00:00",
+          "subject": "Borsa Dışı Repo - Ters Repo Sözleşmesi",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664920",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664372,
+          "published_at": "2026-09-16T21:03:00+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664372",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1664224,
+          "published_at": "2026-09-16T15:17:40+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1664224",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1661088,
+          "published_at": "2026-09-09T14:12:22+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1661088",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1657435,
+          "published_at": "2026-09-02T14:51:35+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1657435",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1646700,
+          "published_at": "2026-08-10T14:19:01+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1646700",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1641622,
+          "published_at": "2026-07-31T15:56:53+00:00",
+          "subject": "Performans Sunum Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1641622",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1633728,
+          "published_at": "2026-07-14T15:05:16+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1633728",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1629811,
+          "published_at": "2026-07-08T15:30:47+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1629811",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1629552,
+          "published_at": "2026-07-08T15:01:26+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1629552",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1614877,
+          "published_at": "2026-06-08T15:06:38+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1614877",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1608441,
+          "published_at": "2026-05-18T09:05:31+00:00",
+          "subject": "Genel Açıklama",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1608441",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1604766,
+          "published_at": "2026-05-11T14:11:07+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1604766",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1602002,
+          "published_at": "2026-05-06T15:11:05+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1602002",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1589068,
+          "published_at": "2026-04-08T14:39:50+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1589068",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1587830,
+          "published_at": "2026-04-08T08:39:14+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1587830",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1579585,
+          "published_at": "2026-03-30T19:34:55+00:00",
+          "subject": "BYF, Fon Finansal Rapor",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1579585",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1568780,
+          "published_at": "2026-03-09T14:12:06+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1568780",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1558403,
+          "published_at": "2026-02-18T14:27:43+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1558403",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        }
+      ]
+    },
+    {
+      "code": "AC4",
+      "fund_name": "PARDUS PORTFÖY PARA PİYASASI (TL) FON",
+      "portfolio_period": "2026-09",
+      "holdings_record_count": 10,
+      "comparison": {
+        "status": "INSUFFICIENT_COMPARABLE_CODES",
+        "original_portfolio_period": "UNKNOWN",
+        "latest_kap_period": "2026-09",
+        "periods_confirmed_equal": false,
+        "distinct_original_codes": 2,
+        "distinct_kap_codes": 8,
+        "comparable_unique_codes": 0,
+        "ambiguous_duplicate_codes": [],
+        "different_source_only_codes": {
+          "only_original": [
+            "TPP",
+            "VAKIFBANK"
+          ],
+          "only_kap": [
+            "TRB100227T13",
+            "TRFA1CPK2619",
+            "TRFBLLYA2646",
+            "TRT010328T12",
+            "TRT040729T14",
+            "TRT061228T16",
+            "TRT160627T13",
+            "TRT170528T12"
+          ]
+        },
+        "top_weight_differences": [],
+        "difference_unit": "percentage_points",
+        "methodology": "Only exact unique asset-code matches are compared. Missing/duplicate codes are not inferred. Original report period is unknown. Differences may be valuation/reporting/source differences; NEVER inferred trades, defaults or payments."
+      },
+      "payment_status": "NOT_VERIFIED",
+      "payment_review_candidates": [],
+      "new_disclosures_since_last_scan": [],
+      "comparison_baseline_available": true,
+      "source_portfolio_period_changed_since_last_scan": false,
+      "latest_disclosures": [
+        {
+          "index": 1692708,
+          "published_at": "2026-11-04T15:41:58+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1692708",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1679269,
+          "published_at": "2026-10-12T12:16:30+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1679269",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1676202,
+          "published_at": "2026-10-08T11:00:23+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1676202",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1675392,
+          "published_at": "2026-10-07T16:13:38+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1675392",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1674242,
+          "published_at": "2026-10-07T08:26:22+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1674242",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1658593,
+          "published_at": "2026-09-03T15:18:09+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1658593",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1643044,
+          "published_at": "2026-08-04T15:19:09+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1643044",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1638814,
+          "published_at": "2026-07-29T15:17:03+00:00",
+          "subject": "Performans Sunum Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1638814",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1631181,
+          "published_at": "2026-07-09T15:16:03+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1631181",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1627231,
+          "published_at": "2026-07-07T15:19:20+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1627231",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1627174,
+          "published_at": "2026-07-07T15:17:50+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1627174",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1623225,
+          "published_at": "2026-07-02T15:15:21+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1623225",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1612117,
+          "published_at": "2026-06-02T15:13:28+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1612117",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1609295,
+          "published_at": "2026-05-21T06:23:11+00:00",
+          "subject": "Fon Sürekli Bilgilendirme Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1609295",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1609293,
+          "published_at": "2026-05-21T06:23:03+00:00",
+          "subject": "Yatırımcı Bilgi Formu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1609293",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1604972,
+          "published_at": "2026-05-11T15:11:49+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1604972",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1590706,
+          "published_at": "2026-04-10T12:31:28+00:00",
+          "subject": "Aracı Kuruma Ödenen Komisyon ve Varlık Alım Satım Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1590706",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1585664,
+          "published_at": "2026-04-07T08:42:08+00:00",
+          "subject": "Fon Toplam Gider Oranı ve Fon Toplam Giderinin Dağılımı",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1585664",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1585385,
+          "published_at": "2026-04-07T07:24:34+00:00",
+          "subject": "Fon Gider Bilgileri",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1585385",
+          "payment_review_candidate": false,
+          "summary_excerpt": ""
+        },
+        {
+          "index": 1583034,
+          "published_at": "2026-04-02T15:47:22+00:00",
+          "subject": "Portföy Dağılım Raporu",
+          "kap_url": "https://www.kap.org.tr/tr/Bildirim/1583034",
           "payment_review_candidate": false,
           "summary_excerpt": ""
         }
