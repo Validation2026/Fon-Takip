@@ -31,3 +31,10 @@ Dosyalardaki veriler bilgi amaçlıdır; tekil ihraççı ödeme bildirimleri do
 - Orijinal rapor döneminin kesin eşleşmesi doğrulanmadığından, farklar **yeni alım/satım veya işlem kanıtı değildir**; `audit/kap_latest.json` içine sadece denetim referansı olarak kaydedilir.
 - Ödeme/iade/temerrüt kelimeleri geçen KAP bildirimleri *inceleme adayı* olarak işaretlenir. **Hiçbir durumda otomatik `Ödendi` veya `Ödenmedi` kararı verilmez.**
 - İlk KAP taraması baz alınır; sonraki çalışmalarda yeni bildirim numaraları ve rapor dönemi değişiklikleri sayılır. Sağlayıcı düzeltmeleri işlem/pozisyon değişikliği sayılmaz.
+
+### KAP denetiminin Netlify'da salt-okunur yayını
+
+- Pilot başarılı olduğunda `public/data/kap_watch.json` oluşturulur; Netlify yayını üzerinden `/data/kap_watch.json` adresinde okunabilir.
+- Bu JSON, **yalnızca TLY ve TP2** için referans karşılaştırma verisidir; orijinal sekiz bölümlü HTML değiştirilmez.
+- `payment_data_verified: false` ve `payment_status: NOT_VERIFIED` alanları bilinçli olarak korunur. Bir bildirimde ödeme kelimesinin geçmesi işlem yapıldığına kanıt değildir.
+- Kaynağın herhangi birinde eksik/bozuk veri varsa yeni pilot dosyası yayımlanmaz; son başarılı verinin tarihine bakılmalıdır.

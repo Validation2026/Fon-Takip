@@ -18,6 +18,7 @@ from kap_compare import compare_portfolios, fingerprint
 
 ROOT=Path(__file__).resolve().parent.parent
 AUDIT=ROOT/'audit'/'kap_latest.json'
+PUBLIC_KAP=ROOT/'public'/'data'/'kap_watch.json'
 BASE='https://fonoloji.com/v1'
 TZ=dt.timezone(dt.timedelta(hours=3))
 CODES=('TLY','TP2')
@@ -139,6 +140,29 @@ def main():
             report['errors'].append({'code':code,'type':type(exc).__name__,'reason':str(exc)[:180]})
     report['status']='PILOT_VERIFIED' if len(report['funds'])==len(CODES) else 'PILOT_INCOMPLETE'
     save_json(AUDIT,report)
+    if report['status']=='PILOT_VERIFIED':
+        public_report={
+            'schema_version':1,
+            'retrieved_at':timestamp,
+            'status':'PILOT_VERIFIED',
+            'scope':'Only TLY and TP2, not all funds',
+            'payment_data_verified':False,
+            'holdings_are_live_trades':False,
+            'disclaimer':'Reference-only KAP-derived data. Differences are not confirmed transactions; payment indicators require manual verification.',
+            'funds':[{
+                'code':fund['code'],
+                'portfolio_period':fund['portfolio_period'],
+                'holdings_record_count':fund['holdings_record_count'],
+                'comparison':fund['original_vs_latest'],
+                'payment_status':fund['payment_status'],
+                'payment_review_candidates':fund['payment_review_candidates'],
+                'new_disclosures_since_last_scan':fund['new_disclosures_since_last_scan'],
+                'comparison_baseline_available':fund['comparison_baseline_available'],
+                'source_portfolio_period_changed_since_last_scan':fund['source_portfolio_period_changed_since_last_scan'],
+                'latest_disclosures':fund['latest_disclosures'],
+            } for fund in report['funds']],
+        }
+        save_json(PUBLIC_KAP,public_report)
     print('KAP_AUDIT',json.dumps({
         'status':report['status'],'retrieved_at':timestamp,
         'valid_funds':len(report['funds']),

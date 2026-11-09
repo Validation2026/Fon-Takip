@@ -60,6 +60,9 @@ jobs:
           if [ -f audit/kap_latest.json ]; then
             git add audit/kap_latest.json
           fi
+          if [ -f public/data/kap_watch.json ]; then
+            git add public/data/kap_watch.json
+          fi
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): verified TEFAS/Fonoloji snapshot"
             git push
