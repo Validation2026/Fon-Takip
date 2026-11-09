@@ -12,6 +12,9 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from bootstrap import build
+from fon_core import block
+from kap_compare import compare_portfolios, fingerprint
 
 ROOT=Path(__file__).resolve().parent.parent
 AUDIT=ROOT/'audit'/'kap_latest.json'
@@ -70,10 +73,15 @@ def watch_record(code,portfolio,analysis):
             continue
         if stamped.year<2010 or stamped>dt.datetime.now(dt.timezone.utc)+dt.timedelta(days=1):
             continue
+        summary=str(item.get('summary') or '')[:220]
+        payment_terms=('ödeme','odeme','iade','temerr','tasfiye','kupon','itfa')
+        needs_review=any(term in (subject+' '+summary).lower() for term in payment_terms)
         safe_disclosures.append({
             'index':idx,'published_at':stamped.isoformat(timespec='seconds'),
             'subject':subject,
             'kap_url':'https://www.kap.org.tr/tr/Bildirim/'+str(idx),
+            'payment_review_candidate':needs_review,
+            'summary_excerpt':summary if needs_review else '',
         })
     return {
         'code':code,
@@ -81,6 +89,8 @@ def watch_record(code,portfolio,analysis):
         'holdings_report_publish_date':h.get('latestPublishDate'),
         'holdings_record_count':len(holdings),
         'latest_disclosures':safe_disclosures,
+        'payment_review_candidates':[i['index'] for i in safe_disclosures if i['payment_review_candidate']],
+        'payment_review_note':'A payment keyword is a review flag, NEVER proof of payment or non-payment.',
         'payment_status':'NOT_VERIFIED',
         'payment_status_note':'Bildirim basligi veya AI ozeti odeme gerceklesti kaniti sayilmaz.',
         'holdings_used_in_original_dashboard':False
@@ -101,11 +111,30 @@ def main():
         'status':'PILOT_REFERENCE_ONLY','watched_funds':list(CODES),
         'funds':[],'errors':[],
         'note':'Read-only pilot. No official KAP API subscription; no payment/portfolio fields on the original site are edited.'}
+    historical={}
+    if AUDIT.exists():
+        try:
+            historical=json.loads(AUDIT.read_text('utf8'))
+        except (ValueError,OSError):
+            historical={}
+    previous_by_code={f.get('code'):f for f in historical.get('funds',[]) if isinstance(f,dict)}
+    original_rows,_,_=block(build().decode('utf8'),'R')
     for code in CODES:
         try:
             p=get('/funds/'+urllib.parse.quote(code)+'/portfolio?include=allocation,holdings,dates',key)
             d=get('/funds/'+urllib.parse.quote(code)+'/analysis?include=disclosures',key)
-            report['funds'].append(watch_record(code,p,d))
+            rec=watch_record(code,p,d)
+            items=p['holdings']['items']
+            rec['original_vs_latest']=compare_portfolios(original_rows,code,items,rec['portfolio_period'])
+            rec['holdings_fingerprint']=fingerprint(items)
+            old=previous_by_code.get(code)
+            rec['comparison_baseline_available']=old is not None
+            old_ids={x.get('index') for x in old.get('latest_disclosures',[]) if isinstance(x,dict)} if old else set()
+            rec['new_disclosures_since_last_scan']=[x['index'] for x in rec['latest_disclosures'] if x['index'] not in old_ids] if old else []
+            rec['source_portfolio_period_changed_since_last_scan']=(rec['portfolio_period']!=old.get('portfolio_period')) if old else None
+            rec['holdings_changed_since_last_scan']=(rec['holdings_fingerprint']!=old.get('holdings_fingerprint')) if old and old.get('holdings_fingerprint') and rec['portfolio_period']==old.get('portfolio_period') else None
+            rec['change_note']='New disclosures are computed only after a baseline scan. A changed fingerprint may be a provider correction, not a trade.'
+            report['funds'].append(rec)
         except Exception as exc:
             report['errors'].append({'code':code,'type':type(exc).__name__,'reason':str(exc)[:180]})
     report['status']='PILOT_VERIFIED' if len(report['funds'])==len(CODES) else 'PILOT_INCOMPLETE'

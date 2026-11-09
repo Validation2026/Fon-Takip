@@ -24,3 +24,10 @@ Dosyalardaki veriler bilgi amaçlıdır; tekil ihraççı ödeme bildirimleri do
 - Fonoloji günlük ve aylık kota kontrolü `scripts/update_rolling.py` tarafından yapılır; fon fiyatı ve büyüklüğü tarihleri fon bazındadır, tek bir gün herkes için güncel sayılmaz.
 - `audit/latest.json` fon kapsamını, `state/scan.json` tarama ilerlemesini içerir. `public/data/fund_prices.json` kısmi veri durumunu açıkça belirtir.
 - Veri dosyaları GitHub'a işlendiğinde Netlify yayın yapar ancak aynı veri commit'i yeni bir fon taramasını başlatmaz. Manuel çalıştırma `workflow_dispatch` ile mümkündür.
+
+### KAP çapraz kaynak karşılaştırması ve ödeme işaretleri
+
+- `scripts/kap_compare.py`, orijinal HTML içindeki `R` pozisyonları ile Fonoloji'nin en son KAP portföyü arasında **yalnızca tekil ve birebir menkul kıymet kodu eşleşmelerini** yüzde puan cinsinden karşılaştırır. Kod birden fazla satırda geçiyorsa yanıltıcı toplama yapmayıp karşılaştırma dışı bırakır.
+- Orijinal rapor döneminin kesin eşleşmesi doğrulanmadığından, farklar **yeni alım/satım veya işlem kanıtı değildir**; `audit/kap_latest.json` içine sadece denetim referansı olarak kaydedilir.
+- Ödeme/iade/temerrüt kelimeleri geçen KAP bildirimleri *inceleme adayı* olarak işaretlenir. **Hiçbir durumda otomatik `Ödendi` veya `Ödenmedi` kararı verilmez.**
+- İlk KAP taraması baz alınır; sonraki çalışmalarda yeni bildirim numaraları ve rapor dönemi değişiklikleri sayılır. Sağlayıcı düzeltmeleri işlem/pozisyon değişikliği sayılmaz.
