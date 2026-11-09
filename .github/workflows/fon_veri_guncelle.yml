@@ -34,21 +34,21 @@ jobs:
         id: update
         env:
           FONOLOJI_KEY: ${{ secrets.FONOLOJI_KEY }}
+          FONOLOJI_BATCH_LIMIT: ${{ github.event_name == 'push' && '20' || '400' }}
         run: |
           if [ -z "$FONOLOJI_KEY" ]; then
             echo "::error::FONOLOJI_KEY Repository Secrets altinda bulunamadi. Veri guncellemesi durduruldu."
             exit 1
           fi
-          python scripts/update.py
+          python scripts/update_rolling.py
           echo "updated=true" >> "$GITHUB_OUTPUT"
       - name: Doğrulanmış verileri sürümle ve Netlify deploy tetikle
         if: steps.update.outputs.updated == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/index.html public/data/fund_prices.json state/funds.json
+          git add public/index.html public/data/fund_prices.json state/funds.json state/scan.json audit/latest.json
           if ! git diff --cached --quiet; then
-            git add audit/latest.json
             git commit -m "chore(data): verified TEFAS/Fonoloji snapshot"
             git push
           else
