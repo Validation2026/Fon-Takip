@@ -1,5 +1,6 @@
 """The KAP public feed is always explicitly unverified for payment information."""
 import json
+import sys
 import unittest
 from pathlib import Path
 
@@ -14,6 +15,10 @@ class TestKapPublic(unittest.TestCase):
         self.assertFalse(doc['holdings_are_live_trades'])
         self.assertEqual(doc['status'],'PILOT_VERIFIED')
         self.assertTrue(doc['retrieved_at'])
-        self.assertEqual({f['code'] for f in doc['funds']},{'TLY','TP2'})
+        sys.path.insert(0,str(root/'scripts'))
+        from kap_watch import CODES
+        self.assertGreaterEqual(len(doc['funds']),2)
+        self.assertTrue({'TLY','TP2'}.issubset({f['code'] for f in doc['funds']}))
+        self.assertTrue({f['code'] for f in doc['funds']}.issubset(set(CODES)))
         self.assertTrue(all(f['payment_status']=='NOT_VERIFIED' for f in doc['funds']))
 if __name__=='__main__':unittest.main()

@@ -21,7 +21,7 @@ AUDIT=ROOT/'audit'/'kap_latest.json'
 PUBLIC_KAP=ROOT/'public'/'data'/'kap_watch.json'
 BASE='https://fonoloji.com/v1'
 TZ=dt.timezone(dt.timedelta(hours=3))
-CODES=('TLY','TP2')
+CODES=('TLY','TP2','THF','KHA','PRY','HEH','KSA','AC4')
 MAX_BYTES=4_000_000
 
 def get(path,key):
@@ -125,6 +125,7 @@ def main():
             p=get('/funds/'+urllib.parse.quote(code)+'/portfolio?include=allocation,holdings,dates',key)
             d=get('/funds/'+urllib.parse.quote(code)+'/analysis?include=disclosures',key)
             rec=watch_record(code,p,d)
+            rec['fund_name']=next((row[1] for row in original_rows if row[0]==code and len(row)>1),code)
             items=p['holdings']['items']
             rec['original_vs_latest']=compare_portfolios(original_rows,code,items,rec['portfolio_period'])
             rec['holdings_fingerprint']=fingerprint(items)
@@ -145,12 +146,15 @@ def main():
             'schema_version':1,
             'retrieved_at':timestamp,
             'status':'PILOT_VERIFIED',
-            'scope':'Only TLY and TP2, not all funds',
+            'scope':'Eight pilot funds only, not the entire fund universe',
+            'watched_funds':list(CODES),
+            'funds_verified_count':len(report['funds']),
             'payment_data_verified':False,
             'holdings_are_live_trades':False,
             'disclaimer':'Reference-only KAP-derived data. Differences are not confirmed transactions; payment indicators require manual verification.',
             'funds':[{
                 'code':fund['code'],
+                'fund_name':fund['fund_name'],
                 'portfolio_period':fund['portfolio_period'],
                 'holdings_record_count':fund['holdings_record_count'],
                 'comparison':fund['original_vs_latest'],

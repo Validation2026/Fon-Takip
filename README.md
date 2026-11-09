@@ -38,3 +38,10 @@ Dosyalardaki veriler bilgi amaçlıdır; tekil ihraççı ödeme bildirimleri do
 - Bu JSON, **yalnızca TLY ve TP2** için referans karşılaştırma verisidir; orijinal sekiz bölümlü HTML değiştirilmez.
 - `payment_data_verified: false` ve `payment_status: NOT_VERIFIED` alanları bilinçli olarak korunur. Bir bildirimde ödeme kelimesinin geçmesi işlem yapıldığına kanıt değildir.
 - Kaynağın herhangi birinde eksik/bozuk veri varsa yeni pilot dosyası yayımlanmaz; son başarılı verinin tarihine bakılmalıdır.
+
+### 8 fonluk KAP izleme kapsamı
+
+- İzlenen fonlar: TLY, TP2, THF, KHA, PRY, HEH, KSA, AC4. Bunlar yalnızca pilot kapsamdır; 2.540 fonun tamamı izleniyor denmez.
+- Her biri için son portföy dönemi, pozisyon sayısı ve son 20 KAP bildirimi izlenir. Kaynak dönemleri farklı olabilir.
+- Fon adları orijinal dashboard'daki veri kümesinden alınır. Orijinal sekiz bölüm, portföy ve ödeme alanları değişmez.
+- Pilot kaynaklardan birinin veri kalitesi/erişim hatası halinde kısmi pilot 'PILOT_INCOMPLETE' sayılır; eski başarılı KAP verisi korunur.
