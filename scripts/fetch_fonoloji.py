@@ -20,7 +20,7 @@ ALIASES={
     "current_date":["current_date","price_date","date","tarih","fiyat_tarihi","last_seen"],
     "current_price":["current_price","price","nav","birim_fiyat","fiyat","pay_fiyati"],
     "aum":["aum","total_value","fon_buyuklugu","fon_toplam_degeri","total_assets","fund_size"],
-    "investor_count":["investor_count","investors","yatirimci_sayisi","yatirimci_adedi","number_of_investors"]
+    "investor_count":["investor_count","investors","yatirimci","yatirimci_sayisi","yatirimci_adedi","number_of_investors"]
 }
 def parse_csv(body):
     value=body.decode("utf-8-sig")
