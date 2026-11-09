@@ -1,21 +1,20 @@
 {
-  "run_at": "2026-11-09T09:24:01+03:00",
+  "run_at": "2026-11-09T09:33:47+03:00",
   "source": "Fonoloji REST API",
   "fund_count": 2540,
   "selected": 20,
-  "accepted_this_run": 18,
-  "cached_recent_valid": 18,
-  "coverage": 0.0071,
+  "accepted_this_run": 19,
+  "cached_recent_valid": 37,
+  "coverage": 0.0146,
   "quota_before": {
-    "today": 1992,
-    "this_month": 28992
+    "today": 1970,
+    "this_month": 28970
   },
   "errors": {
-    "invalid_date": 1,
     "not_found": 1
   },
   "price_date_counts": {
-    "2026-11-09": 18
+    "2026-11-09": 37
   },
   "publish_html": false,
   "min_coverage": 0.85,
