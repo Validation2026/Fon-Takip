@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>KAP İzleme | Fon Takip Dashboard</title>
+<meta name="description" content="Fon Takip Dashboard KAP portföy raporları ve bildirimleri için kaynağı ve tarihi görünür denetim ekranı.">
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:#17263c;background:#f3f6fa;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}a{color:inherit}button,input{font:inherit}button{cursor:pointer}
+.hero{background:radial-gradient(1100px 380px at 85% 0%,#28576b 0%,transparent 65%),linear-gradient(115deg,#0e2034,#153044 65%,#133b46);color:white;padding:26px 0 100px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid #ffffff17;border-radius:50%;right:-160px;top:-130px;box-shadow:0 0 0 66px #ffffff06,0 0 0 132px #ffffff06;pointer-events:none}
+.wrap{width:min(1160px,calc(100% - 40px));margin:0 auto}.top{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:50px;position:relative;z-index:2}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.02em}.brand-mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(150deg,#dbf2ad,#9ed3a2);display:grid;place-items:center;color:#14342e;font-size:18px;box-shadow:0 5px 18px #020e1559}
+.return{border:1px solid #ffffff50;padding:9px 14px;border-radius:10px;font-size:13px;text-decoration:none;color:#e8f4f3;background:#ffffff10}.return:hover{background:#ffffff25}
+.eyebrow{display:inline-flex;gap:7px;align-items:center;background:#ffffff13;border:1px solid #ffffff24;border-radius:999px;padding:6px 10px;color:#bfe3d5;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.eyebrow-dot{width:7px;height:7px;background:#abe7bb;border-radius:50%}
+h1{font-size:clamp(30px,4vw,49px);line-height:1.13;margin:18px 0 12px;letter-spacing:-.045em;max-width:790px}
+.hero p{font-size:15px;line-height:1.75;color:#d1e1e5;max-width:800px;margin:0}.highlight{color:#bfe6aa}
+.main{margin-top:-57px;position:relative;z-index:2;padding-bottom:64px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:24px}.stat{border-radius:16px;background:#fff;padding:22px 23px;border:1px solid #e0e7ee;box-shadow:0 6px 25px #17314b0a}
+.stat .small{font-size:11px;color:#61748a;font-weight:700;letter-spacing:.015em;margin-bottom:8px}.stat .big{font-size:30px;letter-spacing:-.045em;font-weight:800;color:#152b3f;line-height:1.1}.stat .sub{font-size:11px;color:#738394;margin-top:7px}
+.panel{background:#fff;border:1px solid #e1e8ee;border-radius:17px;box-shadow:0 8px 28px #20375009}
+.statusbar{padding:17px 21px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:18px}
+.status-copy{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.dot{width:9px;height:9px;background:#4ba779;border-radius:50%;box-shadow:0 0 0 3px #e4f6ed}.dot.warn{background:#edb65b;box-shadow:0 0 0 3px #fff5df}.state{font-size:12px;font-weight:800}.time{color:#68788a;font-size:12px}.smalllink{color:#267d77;text-decoration:none;font-size:12px;font-weight:700}.smalllink:hover{text-decoration:underline}
+.note{font-size:12px;line-height:1.65;color:#6a5664;background:#fcf5eb;border-left:3px solid #daa956;border-radius:8px;padding:13px 16px;margin-bottom:22px}
+.toolbar{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;align-items:center;margin:18px 0}
+.search{min-width:245px;flex:1;max-width:390px;border:1px solid #dbe3eb;background:#fff;outline:none;border-radius:11px;padding:12px 14px;color:#213349}.search:focus{border-color:#4c9c97;box-shadow:0 0 0 3px #d2e8e7}
+.filters{display:flex;gap:6px;flex-wrap:wrap}.filter{background:#fff;border:1px solid #dfe6ed;border-radius:10px;padding:10px 13px;color:#5b7082;font-size:12px;font-weight:700}.filter.selected{background:#133f4a;border-color:#133f4a;color:white}
+#results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.fund{padding:20px;min-width:0}.fund-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.fund-name{font-size:15px;font-weight:780;line-height:1.45;margin:4px 0;color:#20314a}
+.code{font-size:11px;font-weight:850;color:#24877f;letter-spacing:.07em}
+.flag{font-size:10px;font-weight:800;letter-spacing:.01em;border-radius:999px;padding:6px 9px;white-space:nowrap;background:#e6f4f1;color:#16716a}
+.flag.alert{background:#fff0d7;color:#a65f13}.flag.muted{background:#eff2f6;color:#66778b}
+.hr{border:0;border-top:1px solid #edf0f4;margin:17px 0}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.fact-label{font-size:10px;font-weight:700;color:#7c8b9b;margin-bottom:6px}.fact-value{font-size:13px;font-weight:780;color:#284258;overflow-wrap:anywhere}
+.caution{font-size:11px;color:#8a6a36;background:#fff9e9;padding:10px 11px;border-radius:8px;margin-top:16px;line-height:1.55}
+.expand{border-top:1px solid #e9eef2;margin-top:17px;padding-top:14px}.expand summary{cursor:pointer;list-style:none;font-weight:750;color:#256c73;font-size:12px;display:flex;align-items:center;justify-content:space-between}.expand summary::-webkit-details-marker{display:none}.expand summary:after{content:"＋";font-size:18px}.expand[open] summary:after{content:"−"}
+.kap-row{display:flex;align-items:flex-start;gap:10px;border-top:1px solid #eef1f4;padding:10px 0;font-size:12px}.kap-row:first-child{border-top:0;margin-top:12px}.kap-row a{color:#1d6476;text-decoration:none;font-weight:700}.kap-row a:hover{text-decoration:underline}.kap-date{font-size:10px;color:#81909f;margin-top:4px}.kap-desc{font-size:11px;color:#607185;margin-top:3px}.tag-new{background:#e6f3ff;color:#2f729c;font-size:10px;padding:3px 6px;border-radius:5px}.tag-review{background:#fff0d6;color:#a6631c;font-size:10px;padding:3px 6px;border-radius:5px}
+.empty{grid-column:1/-1;text-align:center;padding:44px;color:#6d7e90}.loading{padding:24px;text-align:center;color:#7e8a98}
+.footer{padding-top:28px;color:#8b97a5;font-size:11px;line-height:1.65}.footer a{color:#437b8b}
+@media(max-width:850px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}#results{grid-template-columns:1fr}.top{margin-bottom:35px}.hero{padding-bottom:88px}}@media(max-width:520px){.wrap{width:calc(100% - 26px)}.stat{padding:18px}.stat .big{font-size:24px}.hero h1{font-size:31px}.hero p{font-size:13px}.statusbar{padding:14px}.fund{padding:16px}.filters{width:100%}.filter{flex:1;padding:10px 7px}.search{max-width:none}.facts{gap:6px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <nav class="top" aria-label="Sayfa menüsü">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">◇</span><span>FON TAKİP <span style="opacity:.6;font-weight:500">/ KAP</span></span></div>
+      <a class="return" href="/#genel-bakis">← Ana Dashboard</a>
+    </nav>
+    <div class="eyebrow"><span class="eyebrow-dot"></span> Veri denetim merkezi · pilot</div>
+    <h1>Portföyü oku.<br><span class="highlight">Bildirimi doğrula.</span></h1>
+    <p>Fonların KAP kaynaklı portföy raporlarını, dönemlerini ve açıklamalarını tek ekrandan izle. Otomatik algılanan farklılıklar denetim referansıdır; ödeme veya alım-satım teyidi değildir.</p>
+  </div>
+</header>
+<main class="wrap main">
+  <section class="stats" aria-label="Özet göstergeler">
+    <div class="stat"><div class="small">İZLENEN PİLOT FON</div><div class="big" id="kpi-all">—</div><div class="sub">Tam fon evreni değil</div></div>
+    <div class="stat"><div class="small">KAP VERİSİ ALINAN</div><div class="big" id="kpi-ok">—</div><div class="sub">Doğrulanan fon</div></div>
+    <div class="stat"><div class="small">ÖDEME İNCELEME ADAYI</div><div class="big" id="kpi-review">—</div><div class="sub">Ödeme teyidi değil</div></div>
+    <div class="stat"><div class="small">YENİ BİLDİRİM</div><div class="big" id="kpi-new">—</div><div class="sub">Önceki taramaya göre</div></div>
+  </section>
+  <section class="statusbar panel" aria-live="polite">
+    <div class="status-copy"><span class="dot" id="source-dot"></span><span id="source-state" class="state">Kaynak kontrol ediliyor</span><span id="source-time" class="time">Veri okunuyor…</span></div>
+    <div style="display:flex;gap:15px;align-items:center;flex-wrap:wrap">
+      <a class="smalllink" href="/data/kap_watch.json" target="_blank" rel="noopener noreferrer">Ham veri</a>
+      <button id="refresh" class="filter" type="button">↻ Yeniden yükle</button>
+    </div>
+  </section>
+  <div class="note"><strong>Veri yorumu:</strong> Kaynak Fonoloji'nin KAP'tan türetilmiş referans kayıtlarıdır; resmi KAP dokümanı yerine geçmez. Orijinal portföyün dönemi doğrulanmadıkça ağırlık farkı işlem olarak yorumlanamaz. “Ödeme incelemesi” bir uyarıdır; <strong>ödendi / ödenmedi</strong> hükmü değildir. Orijinal dashboard'un hiçbir ödeme veya portföy alanı bu ekran nedeniyle değiştirilmez.</div>
+  <section aria-label="Fon listesi">
+    <div class="toolbar">
+      <input class="search" type="search" id="search" autocomplete="off" placeholder="Fon kodu veya adına göre ara…" aria-label="Fon ara">
+      <div class="filters" role="group" aria-label="Fon filtresi">
+        <button type="button" class="filter selected" data-filter="all" aria-pressed="true">Tümü</button>
+        <button type="button" class="filter" data-filter="review" aria-pressed="false">Ödeme incelemesi</button>
+        <button type="button" class="filter" data-filter="new" aria-pressed="false">Yeni bildirim</button>
+        <button type="button" class="filter" data-filter="error" aria-pressed="false">Veri eksikleri</button>
+      </div>
+    </div>
+    <div id="results" aria-live="polite"><div class="panel loading" style="grid-column:1/-1">KAP kayıtları yükleniyor…</div></div>
+  </section>
+  <footer class="footer">Fon Takip Dashboard · Bu sayfa yatırım tavsiyesi veya resmi ödeme teyidi içermez. <a href="/#genel-bakis">Ana dashboard</a> · <a href="https://www.kap.org.tr/" target="_blank" rel="noopener noreferrer">Resmi KAP</a></footer>
+</main>
+<script>
+(function(){
+  'use strict';
+  var all=[],watched=[],errors={},filter='all',query='';
+  var result=document.getElementById('results');
+  var formatDate=function(value){if(!value)return 'Bilinmiyor';var dt=new Date(value);if(Number.isNaN(dt.getTime()))return String(value);return new Intl.DateTimeFormat('tr-TR',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Europe/Istanbul'}).format(dt)};
+  var el=function(tag,cls,value){var o=document.createElement(tag);if(cls)o.className=cls;if(value!==undefined&&value!==null)o.textContent=String(value);return o};
+  var append=function(parent,items){items.forEach(function(item){if(item)parent.appendChild(item)});return parent};
+  var count=function(arr){return Array.isArray(arr)?arr.length:0};
+  function fact(label,value){var x=el('div');append(x,[el('div','fact-label',label),el('div','fact-value',value)]);return x}
+  function disclosureNode(d,news){
+    var row=el('div','kap-row');var main=el('div');main.style.flex='1';
+    var index=Number(d.index);
+    var link=el('a','',d.subject||'KAP bildirimi');
+    if(Number.isSafeInteger(index)&&index>0){link.href='https://www.kap.org.tr/tr/Bildirim/'+index;link.target='_blank';link.rel='noopener noreferrer'}
+    else{link.removeAttribute('href')}
+    append(main,[link,el('div','kap-date',formatDate(d.published_at))]);
+    if(d.summary_excerpt)main.appendChild(el('div','kap-desc',d.summary_excerpt));
+    row.appendChild(main);
+    if(Array.isArray(news)&&news.includes(index))row.appendChild(el('span','tag-new','Yeni'));
+    if(d.payment_review_candidate)row.appendChild(el('span','tag-review','İncele'));
+    return row;
+  }
+  function renderCard(f){
+    var card=el('article','fund panel');
+    var missing=!!f._error;
+    var needs=count(f.payment_review_candidates)>0;
+    var newCount=count(f.new_disclosures_since_last_scan);
+    var head=el('div','fund-head'),meta=el('div');
+    append(meta,[el('div','code',f.code||'—'),el('div','fund-name',f.fund_name||f.code||'Bilinmeyen fon')]);
+    head.appendChild(meta);
+    head.appendChild(el('span','flag '+(missing?'muted':needs?'alert':''),missing?'Veri yok':needs?'İnceleme adayı':'Referans mevcut'));
+    card.appendChild(head);
+    card.appendChild(el('hr','hr'));
+    var facts=el('div','facts');
+    append(facts,[fact('KAP rapor dönemi',missing?'—':f.portfolio_period||'Bilinmiyor'),
+                  fact('Portföy kalemi',missing?'—':String(f.holdings_record_count??'—')),
+                  fact('Yeni bildirim',missing?'—':String(newCount))]);
+    card.appendChild(facts);
+    if(missing){card.appendChild(el('div','caution','Bu fon için veri bu taramada doğrulanamadı. Önceki kayıt da otomatik olarak güncel kabul edilmez.'));return card}
+    var comp=f.comparison||{};
+    var matches=Number(comp.comparable_unique_codes)||0;
+    card.appendChild(el('div','caution',needs?'Ödeme ile ilgili bildirim bulunuyor; sonucu resmi KAP belgesinden doğrulamak gerekiyor.':'Ödeme durumu doğrulanmadı. Portföy eşleşmeleri işlem veya ödeme teyidi değildir.'));
+    var detail=el('details','expand');var summary=el('summary','', 'Portföy karşılaştırması ve KAP bildirimleri');detail.appendChild(summary);
+    var compare=el('div','kap-desc','Orijinal rapor dönemi: doğrulanmadı. Yalnızca '+matches+' tekil menkul kıymet kodu karşılaştırılabildi. Bu, gerçekleşmiş alım/satım anlamına gelmez.');
+    compare.style.marginTop='12px';detail.appendChild(compare);
+    if(f.source_portfolio_period_changed_since_last_scan===true)detail.appendChild(el('div','caution','KAP portföy raporu dönemi önceki taramaya göre değişti. İçerik doğrulaması gerekir.'));
+    var ds=Array.isArray(f.latest_disclosures)?f.latest_disclosures:[];
+    if(!ds.length)detail.appendChild(el('div','kap-desc','KAP bildirim listesi bulunamadı.'));
+    ds.slice(0,20).forEach(function(d){detail.appendChild(disclosureNode(d,f.new_disclosures_since_last_scan))});
+    card.appendChild(detail);
+    return card;
+  }
+  function render(){
+    result.replaceChildren();
+    var q=query.toLocaleLowerCase('tr-TR');
+    var list=watched.map(function(code){
+      return all.find(function(x){return x.code===code})||{code:code,_error:errors[code]||'missing'};
+    }).filter(function(f){
+      var search=(String(f.code||'')+' '+String(f.fund_name||'')).toLocaleLowerCase('tr-TR');
+      if(q&&!search.includes(q))return false;
+      if(filter==='review')return count(f.payment_review_candidates)>0;
+      if(filter==='new')return count(f.new_disclosures_since_last_scan)>0;
+      if(filter==='error')return !!f._error;
+      return true;
+    });
+    list.sort(function(a,b){return (count(b.payment_review_candidates)-count(a.payment_review_candidates))||String(a.code).localeCompare(String(b.code),'tr')});
+    if(!list.length){result.appendChild(el('div','panel empty','Bu filtreyle eşleşen fon bulunamadı.'));return}
+    list.forEach(function(f){result.appendChild(renderCard(f))});
+  }
+  async function load(){
+    var state=document.getElementById('source-state'),time=document.getElementById('source-time'),dot=document.getElementById('source-dot');
+    state.textContent='Veri kaynağı kontrol ediliyor';time.textContent='';dot.className='dot warn';
+    try{
+      var response=await fetch('/data/kap_watch.json',{cache:'no-store'});
+      if(!response.ok)throw new Error('HTTP '+response.status);
+      var doc=await response.json();
+      if(!doc||!Array.isArray(doc.funds)||!Array.isArray(doc.watched_funds))throw new Error('Veri biçimi uyuşmuyor');
+      all=doc.funds;watched=doc.watched_funds;
+      errors={};(doc.errors||[]).forEach(function(e){if(e&&e.code)errors[e.code]=e.type||'unknown'});
+      document.getElementById('kpi-all').textContent=String(watched.length);
+      document.getElementById('kpi-ok').textContent=String(all.length);
+      document.getElementById('kpi-review').textContent=String(all.reduce(function(n,f){return n+count(f.payment_review_candidates)},0));
+      document.getElementById('kpi-new').textContent=String(all.reduce(function(n,f){return n+count(f.new_disclosures_since_last_scan)},0));
+      var partial=doc.status!=='PILOT_VERIFIED'||all.length<watched.length;
+      state.textContent=partial?'Kısmi KAP pilotu · bazı fonlar eksik':'KAP pilot verileri doğrulandı';
+      time.textContent='Son çekim: '+formatDate(doc.retrieved_at);
+      dot.className='dot'+(partial?' warn':'');
+      render();
+    }catch(error){
+      state.textContent='Veri kaynağı okunamadı';time.textContent='KAP sonuçları teyit edilemiyor';dot.className='dot warn';
+      result.replaceChildren(el('div','panel empty','KAP verilerine ulaşılamadı. Ana dashboard etkilenmedi. Kaynak dosyasını kontrol edip yeniden deneyin.'));
+    }
+  }
+  document.getElementById('search').addEventListener('input',function(event){query=event.target.value.trim();render()});
+  document.querySelectorAll('[data-filter]').forEach(function(button){button.addEventListener('click',function(){
+    filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(function(other){
+      var active=other===button;other.classList.toggle('selected',active);other.setAttribute('aria-pressed',active?'true':'false');
+    });render();
+  })});
+  document.getElementById('refresh').addEventListener('click',load);
+  load();
+})();
+</script>
+</body></html>
