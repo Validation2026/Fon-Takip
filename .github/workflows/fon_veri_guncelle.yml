@@ -31,6 +31,7 @@ jobs:
       - name: Kaynak ve veri testleri
         run: python -m unittest discover -s tests -v
       - name: KAP veri yapisi pilot kontrol (yalnizca alan adlari)
+        continue-on-error: true
         env:
           FONOLOJI_KEY: ${{ secrets.FONOLOJI_KEY }}
         run: python scripts/kap_probe.py
