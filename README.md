@@ -13,3 +13,14 @@ Orijinal dashboard içerik ve görünüm olarak korunur. HTML, GitHub yükleme s
 **Kurulum:** Netlify > Add new project > Import an existing project > GitHub > `Validation2026/Fon-Takip`. `netlify.toml` varsayılan kurulum ayarlarını içerir. `build command`: `python3 scripts/bootstrap.py`; `publish directory`: `public`.
 
 Dosyalardaki veriler bilgi amaçlıdır; tekil ihraççı ödeme bildirimleri doğrulanmadan ödendi/ödenmedi durumları değiştirilmez.
+
+
+## 2026-11: KAP referans izleme pilotu
+
+- `scripts/kap_watch.py` Fonoloji'nin fon bazlı KAP portföy ve bildirim alanlarını **TLY ve TP2** için okur.
+- Sonuçlar `audit/kap_latest.json` dosyasında denetim amacıyla tutulur; mevcut HTML'deki KAP portföy pozisyonları ve ödendi/ödenmedi durumları **asla otomatik değiştirilmez**.
+- `payment_status = NOT_VERIFIED` bir temerrüt/ödeme kararı değildir. Ödeme teyidi için açıklamanın resmi KAP metni ve hak kullanım/ödeme belgeleri ayrıca doğrulanmalıdır.
+- Resmi KAP Veri Yayın Servisi abonelik/yetkilendirme gerektirir. Bu pilot Fonoloji'deki KAP kaynaklı referans bilgileriyle sınırlıdır.
+- Fonoloji günlük ve aylık kota kontrolü `scripts/update_rolling.py` tarafından yapılır; fon fiyatı ve büyüklüğü tarihleri fon bazındadır, tek bir gün herkes için güncel sayılmaz.
+- `audit/latest.json` fon kapsamını, `state/scan.json` tarama ilerlemesini içerir. `public/data/fund_prices.json` kısmi veri durumunu açıkça belirtir.
+- Veri dosyaları GitHub'a işlendiğinde Netlify yayın yapar ancak aynı veri commit'i yeni bir fon taramasını başlatmaz. Manuel çalıştırma `workflow_dispatch` ile mümkündür.
