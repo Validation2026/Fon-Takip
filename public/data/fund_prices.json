@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-11-09T09:39:49+03:00",
+  "retrieved_at": "2026-11-09T09:47:33+03:00",
   "source": "Fonoloji/TEFAS",
   "funds": {
     "AAJ": {
@@ -617,9 +617,153 @@
       "aum": 1699641039.24,
       "investor_count": 117378,
       "source": "Fonoloji/TEFAS"
+    },
+    "AHL": {
+      "code": "AHL",
+      "current_date": "2026-11-09",
+      "current_price": 0.44112,
+      "aum": 8102957104.85,
+      "investor_count": 123430,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AHN": {
+      "code": "AHN",
+      "current_date": "2026-11-09",
+      "current_price": 70.744845,
+      "aum": 33530863.27,
+      "investor_count": 97,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AHU": {
+      "code": "AHU",
+      "current_date": "2026-11-09",
+      "current_price": 11.520572,
+      "aum": 76704417.28,
+      "investor_count": 565,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AHV": {
+      "code": "AHV",
+      "current_date": "2026-11-09",
+      "current_price": 21.698277,
+      "aum": 127904550.63,
+      "investor_count": 154,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AHZ": {
+      "code": "AHZ",
+      "current_date": "2026-11-09",
+      "current_price": 32.080892,
+      "aum": 101466021.91,
+      "investor_count": 12,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AI1": {
+      "code": "AI1",
+      "current_date": "2026-11-09",
+      "current_price": 1.356185,
+      "aum": 66351758.34,
+      "investor_count": 15,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AIE": {
+      "code": "AIE",
+      "current_date": "2026-11-09",
+      "current_price": 0.214081,
+      "aum": 609172359.73,
+      "investor_count": 10611,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AII": {
+      "code": "AII",
+      "current_date": "2026-11-09",
+      "current_price": 100.640131,
+      "aum": 396723394.89,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AIP": {
+      "code": "AIP",
+      "current_date": "2026-11-09",
+      "current_price": 0.257315,
+      "aum": 768959883.15,
+      "investor_count": 10581,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AIR": {
+      "code": "AIR",
+      "current_date": "2026-11-09",
+      "current_price": 172.251985,
+      "aum": 1539547594.43,
+      "investor_count": 4,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AIS": {
+      "code": "AIS",
+      "current_date": "2026-11-09",
+      "current_price": 0.11628,
+      "aum": 9112724026.71,
+      "investor_count": 29096,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AJ1": {
+      "code": "AJ1",
+      "current_date": "2026-11-09",
+      "current_price": 0.068624,
+      "aum": 519322.56,
+      "investor_count": 81,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AJA": {
+      "code": "AJA",
+      "current_date": "2026-11-09",
+      "current_price": 0.309828,
+      "aum": 1344120305.9,
+      "investor_count": 14034,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AJB": {
+      "code": "AJB",
+      "current_date": "2026-11-09",
+      "current_price": 0.300105,
+      "aum": 749019193.6,
+      "investor_count": 9205,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AJC": {
+      "code": "AJC",
+      "current_date": "2026-11-09",
+      "current_price": 0.218385,
+      "aum": 408580052.95,
+      "investor_count": 6175,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AJE": {
+      "code": "AJE",
+      "current_date": "2026-11-09",
+      "current_price": 66.651161,
+      "aum": 3218108631.85,
+      "investor_count": 896,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AJF": {
+      "code": "AJF",
+      "current_date": "2026-11-09",
+      "current_price": 0.134063,
+      "aum": 222444644.71,
+      "investor_count": 3862,
+      "source": "Fonoloji/TEFAS"
+    },
+    "AJG": {
+      "code": "AJG",
+      "current_date": "2026-11-09",
+      "current_price": 0.296624,
+      "aum": 1310535609.81,
+      "investor_count": 15716,
+      "source": "Fonoloji/TEFAS"
     }
   },
-  "coverage": 0.0303,
+  "coverage": 0.0374,
   "per_fund_dates": true,
   "note": "Every fund has its own price date; partial coverage is not advertised as universal freshness."
 }
