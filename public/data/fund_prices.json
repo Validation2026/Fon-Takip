@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-11-09T19:58:44+03:00",
+  "retrieved_at": "2026-11-10T18:19:11+03:00",
   "source": "Fonoloji/TEFAS",
   "funds": {
     "AAJ": {
@@ -4289,9 +4289,3073 @@
       "aum": 8090290682.82,
       "investor_count": 114051,
       "source": "Fonoloji/TEFAS"
+    },
+    "EBD": {
+      "code": "EBD",
+      "current_date": "2026-11-10",
+      "current_price": 0.252383,
+      "aum": 65711139.51,
+      "investor_count": 479,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EBI": {
+      "code": "EBI",
+      "current_date": "2026-11-10",
+      "current_price": 57.678212,
+      "aum": 836170155.01,
+      "investor_count": 20,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EBS": {
+      "code": "EBS",
+      "current_date": "2026-11-10",
+      "current_price": 51.578601,
+      "aum": 5017509992.44,
+      "investor_count": 23,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EC2": {
+      "code": "EC2",
+      "current_date": "2026-11-10",
+      "current_price": 74.696801,
+      "aum": 41298950.04,
+      "investor_count": 1447,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ECA": {
+      "code": "ECA",
+      "current_date": "2026-11-10",
+      "current_price": 1.89594,
+      "aum": 250221437.57,
+      "investor_count": 680,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ECB": {
+      "code": "ECB",
+      "current_date": "2026-11-10",
+      "current_price": 57.89036,
+      "aum": 741160441.47,
+      "investor_count": 3136,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ECV": {
+      "code": "ECV",
+      "current_date": "2026-11-10",
+      "current_price": 0.526762,
+      "aum": 182996425.94,
+      "investor_count": 2430,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EDD": {
+      "code": "EDD",
+      "current_date": "2026-11-10",
+      "current_price": 1.14752,
+      "aum": 21647752.22,
+      "investor_count": 782,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EDN": {
+      "code": "EDN",
+      "current_date": "2026-11-10",
+      "current_price": 1.083492,
+      "aum": 300938606.51,
+      "investor_count": 20,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EDP": {
+      "code": "EDP",
+      "current_date": "2026-11-10",
+      "current_price": 1.263733,
+      "aum": 171493587.34,
+      "investor_count": 55,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EDT": {
+      "code": "EDT",
+      "current_date": "2026-11-10",
+      "current_price": 2.444201,
+      "aum": 957314171.63,
+      "investor_count": 527,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EDU": {
+      "code": "EDU",
+      "current_date": "2026-11-10",
+      "current_price": 3.720416,
+      "aum": 376267618.25,
+      "investor_count": 631,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EGA": {
+      "code": "EGA",
+      "current_date": "2026-11-10",
+      "current_price": 0.981841,
+      "aum": 13804568.11,
+      "investor_count": 361,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EGP": {
+      "code": "EGP",
+      "current_date": "2026-11-10",
+      "current_price": 60.149278,
+      "aum": 274482749.2,
+      "investor_count": 49,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EGR": {
+      "code": "EGR",
+      "current_date": "2026-11-10",
+      "current_price": 1.005296,
+      "aum": 321297211.51,
+      "investor_count": 63,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EHG": {
+      "code": "EHG",
+      "current_date": "2026-11-10",
+      "current_price": 0.392769,
+      "aum": 276257126.06,
+      "investor_count": 6728,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EHK": {
+      "code": "EHK",
+      "current_date": "2026-11-10",
+      "current_price": 0.013103,
+      "aum": 924563118.3,
+      "investor_count": 14684,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EHS": {
+      "code": "EHS",
+      "current_date": "2026-11-10",
+      "current_price": 1.924706,
+      "aum": 454113221.01,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EIB": {
+      "code": "EIB",
+      "current_date": "2026-11-10",
+      "current_price": 0.703631,
+      "aum": 293059095.05,
+      "investor_count": 389,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EID": {
+      "code": "EID",
+      "current_date": "2026-11-10",
+      "current_price": 1.740526,
+      "aum": 68979156.73,
+      "investor_count": 1478,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EIE": {
+      "code": "EIE",
+      "current_date": "2026-11-10",
+      "current_price": 0.695917,
+      "aum": 1215137373.3,
+      "investor_count": 33103,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EIF": {
+      "code": "EIF",
+      "current_date": "2026-11-10",
+      "current_price": 0.417359,
+      "aum": 701852898.6,
+      "investor_count": 19253,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EIG": {
+      "code": "EIG",
+      "current_date": "2026-11-10",
+      "current_price": 0.159053,
+      "aum": 237364644.25,
+      "investor_count": 16118,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EIH": {
+      "code": "EIH",
+      "current_date": "2026-11-10",
+      "current_price": 1.173042,
+      "aum": 1403247544.67,
+      "investor_count": 22511,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EIK": {
+      "code": "EIK",
+      "current_date": "2026-11-10",
+      "current_price": 0.628226,
+      "aum": 1390969707.75,
+      "investor_count": 31566,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EIL": {
+      "code": "EIL",
+      "current_date": "2026-11-10",
+      "current_price": 5.731909,
+      "aum": 2613288717.53,
+      "investor_count": 1005,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EJG": {
+      "code": "EJG",
+      "current_date": "2026-11-10",
+      "current_price": 9.064226,
+      "aum": 447946833.35,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EKF": {
+      "code": "EKF",
+      "current_date": "2026-11-10",
+      "current_price": 0.125269,
+      "aum": 385930686.51,
+      "investor_count": 3433,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EKL": {
+      "code": "EKL",
+      "current_date": "2026-11-10",
+      "current_price": 1.972153,
+      "aum": 1838454412.98,
+      "investor_count": 1238,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ELZ": {
+      "code": "ELZ",
+      "current_date": "2026-11-10",
+      "current_price": 11.429173,
+      "aum": 202081743.55,
+      "investor_count": 572,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EMI": {
+      "code": "EMI",
+      "current_date": "2026-11-10",
+      "current_price": 0.008372,
+      "aum": 76922752.72,
+      "investor_count": 3301,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EML": {
+      "code": "EML",
+      "current_date": "2026-11-10",
+      "current_price": 1.214896,
+      "aum": 33815816.67,
+      "investor_count": 783,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EMY": {
+      "code": "EMY",
+      "current_date": "2026-11-10",
+      "current_price": 0.010646,
+      "aum": 10645795332.56,
+      "investor_count": 124237,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ENA": {
+      "code": "ENA",
+      "current_date": "2026-11-10",
+      "current_price": 1.130039,
+      "aum": 35826074.23,
+      "investor_count": 1404,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ENF": {
+      "code": "ENF",
+      "current_date": "2026-11-10",
+      "current_price": 0.015669,
+      "aum": 1051616541.93,
+      "investor_count": 22954,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ENJ": {
+      "code": "ENJ",
+      "current_date": "2026-11-10",
+      "current_price": 1.148625,
+      "aum": 55367296.27,
+      "investor_count": 504,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ENO": {
+      "code": "ENO",
+      "current_date": "2026-11-10",
+      "current_price": 51.07724,
+      "aum": 81243559.68,
+      "investor_count": 111,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ENR": {
+      "code": "ENR",
+      "current_date": "2026-11-10",
+      "current_price": 1.30594,
+      "aum": 2918346089.06,
+      "investor_count": 14279,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ENS": {
+      "code": "ENS",
+      "current_date": "2026-11-10",
+      "current_price": 1.182945,
+      "aum": 35758518.75,
+      "investor_count": 1557,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EOZ": {
+      "code": "EOZ",
+      "current_date": "2026-11-10",
+      "current_price": 23.01,
+      "aum": 317295473.18,
+      "investor_count": 0,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EP1": {
+      "code": "EP1",
+      "current_date": "2026-11-10",
+      "current_price": 1.157163,
+      "aum": 16370345978.4,
+      "investor_count": 3396,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EPA": {
+      "code": "EPA",
+      "current_date": "2026-11-10",
+      "current_price": 1.490552,
+      "aum": 693857456.42,
+      "investor_count": 119,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EPI": {
+      "code": "EPI",
+      "current_date": "2026-11-10",
+      "current_price": 1.004025,
+      "aum": 251460979.72,
+      "investor_count": 244,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EPK": {
+      "code": "EPK",
+      "current_date": "2026-11-10",
+      "current_price": 1.239603,
+      "aum": 188052562.71,
+      "investor_count": 1126,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EPO": {
+      "code": "EPO",
+      "current_date": "2026-11-10",
+      "current_price": 64.275054,
+      "aum": 474992327.58,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EPP": {
+      "code": "EPP",
+      "current_date": "2026-11-10",
+      "current_price": 1.607189,
+      "aum": 1684447448.72,
+      "investor_count": 48,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EPT": {
+      "code": "EPT",
+      "current_date": "2026-11-10",
+      "current_price": 1.44711,
+      "aum": 1273236097.8,
+      "investor_count": 62,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ESG": {
+      "code": "ESG",
+      "current_date": "2026-11-10",
+      "current_price": 4.373344,
+      "aum": 11382248.87,
+      "investor_count": 70,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ESN": {
+      "code": "ESN",
+      "current_date": "2026-11-10",
+      "current_price": 1.630959,
+      "aum": 1698725.78,
+      "investor_count": 19,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ESP": {
+      "code": "ESP",
+      "current_date": "2026-11-10",
+      "current_price": 0.199885,
+      "aum": 11842589.8,
+      "investor_count": 204,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EST": {
+      "code": "EST",
+      "current_date": "2026-11-10",
+      "current_price": 0.100227,
+      "aum": 231007654.27,
+      "investor_count": 5078,
+      "source": "Fonoloji/TEFAS"
+    },
+    "ETN": {
+      "code": "ETN",
+      "current_date": "2026-11-10",
+      "current_price": 1.077899,
+      "aum": 318620991.23,
+      "investor_count": 16,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EUN": {
+      "code": "EUN",
+      "current_date": "2026-11-10",
+      "current_price": 64.529863,
+      "aum": 5190057645.92,
+      "investor_count": 3029,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EUZ": {
+      "code": "EUZ",
+      "current_date": "2026-11-10",
+      "current_price": 63.78028,
+      "aum": 142335698577.71,
+      "investor_count": 36987,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EVL": {
+      "code": "EVL",
+      "current_date": "2026-11-10",
+      "current_price": 1.042265,
+      "aum": 108763281.44,
+      "investor_count": 28,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EVM": {
+      "code": "EVM",
+      "current_date": "2026-11-10",
+      "current_price": 1.076619,
+      "aum": 56030905.91,
+      "investor_count": 500,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EYT": {
+      "code": "EYT",
+      "current_date": "2026-11-10",
+      "current_price": 3.031174,
+      "aum": 31913129.05,
+      "investor_count": 343,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EYZ": {
+      "code": "EYZ",
+      "current_date": "2026-11-10",
+      "current_price": 23.34,
+      "aum": 83763466.37,
+      "investor_count": 0,
+      "source": "Fonoloji/TEFAS"
+    },
+    "EZM": {
+      "code": "EZM",
+      "current_date": "2026-11-10",
+      "current_price": 46.522005,
+      "aum": 4652200.53,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FAK": {
+      "code": "FAK",
+      "current_date": "2026-11-10",
+      "current_price": 1.260268,
+      "aum": 9783695.41,
+      "investor_count": 262,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FAL": {
+      "code": "FAL",
+      "current_date": "2026-11-10",
+      "current_price": 1.212276,
+      "aum": 270893558.44,
+      "investor_count": 461,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FBC": {
+      "code": "FBC",
+      "current_date": "2026-11-10",
+      "current_price": 1.49305,
+      "aum": 118714226.29,
+      "investor_count": 4914,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FBI": {
+      "code": "FBI",
+      "current_date": "2026-11-10",
+      "current_price": 55.859972,
+      "aum": 13948029677.77,
+      "investor_count": 4431,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FBN": {
+      "code": "FBN",
+      "current_date": "2026-11-10",
+      "current_price": 5.93753,
+      "aum": 1740427645.6,
+      "investor_count": 311,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FBV": {
+      "code": "FBV",
+      "current_date": "2026-11-10",
+      "current_price": 6.884146,
+      "aum": 523775002.32,
+      "investor_count": 1530,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FBZ": {
+      "code": "FBZ",
+      "current_date": "2026-11-10",
+      "current_price": 4.464758,
+      "aum": 225094359.38,
+      "investor_count": 323,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FCK": {
+      "code": "FCK",
+      "current_date": "2026-11-10",
+      "current_price": 1.533704,
+      "aum": 345198023.43,
+      "investor_count": 411,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FCS": {
+      "code": "FCS",
+      "current_date": "2026-11-10",
+      "current_price": 2.544493,
+      "aum": 1824598461.55,
+      "investor_count": 141,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FD1": {
+      "code": "FD1",
+      "current_date": "2026-11-10",
+      "current_price": 1.880641,
+      "aum": 5138527.54,
+      "investor_count": 98,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FDG": {
+      "code": "FDG",
+      "current_date": "2026-11-10",
+      "current_price": 2.662156,
+      "aum": 26041711.21,
+      "investor_count": 452,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FDO": {
+      "code": "FDO",
+      "current_date": "2026-11-10",
+      "current_price": 63.309221,
+      "aum": 299918758.88,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FDV": {
+      "code": "FDV",
+      "current_date": "2026-11-10",
+      "current_price": 6.211049,
+      "aum": 1521707067.82,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FDZ": {
+      "code": "FDZ",
+      "current_date": "2026-11-10",
+      "current_price": 0.236572,
+      "aum": 174317844.05,
+      "investor_count": 13,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FEA": {
+      "code": "FEA",
+      "current_date": "2026-11-10",
+      "current_price": 0.145484,
+      "aum": 165930244.27,
+      "investor_count": 995,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FEF": {
+      "code": "FEF",
+      "current_date": "2026-11-10",
+      "current_price": 0.330042,
+      "aum": 203115517.15,
+      "investor_count": 1719,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FEI": {
+      "code": "FEI",
+      "current_date": "2026-11-10",
+      "current_price": 0.091953,
+      "aum": 3819129290.82,
+      "investor_count": 287528,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FEN": {
+      "code": "FEN",
+      "current_date": "2026-11-10",
+      "current_price": 0.07123,
+      "aum": 49136889.12,
+      "investor_count": 6063,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FEO": {
+      "code": "FEO",
+      "current_date": "2026-11-10",
+      "current_price": 0.271326,
+      "aum": 148200633.69,
+      "investor_count": 1743,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FER": {
+      "code": "FER",
+      "current_date": "2026-11-10",
+      "current_price": 0.402719,
+      "aum": 140751458.77,
+      "investor_count": 1122,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FES": {
+      "code": "FES",
+      "current_date": "2026-11-10",
+      "current_price": 0.122662,
+      "aum": 1602415860.15,
+      "investor_count": 32231,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FET": {
+      "code": "FET",
+      "current_date": "2026-11-10",
+      "current_price": 0.140956,
+      "aum": 6780420715.32,
+      "investor_count": 52242,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FFC": {
+      "code": "FFC",
+      "current_date": "2026-11-10",
+      "current_price": 0.091574,
+      "aum": 2661210225.72,
+      "investor_count": 31378,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FFD": {
+      "code": "FFD",
+      "current_date": "2026-11-10",
+      "current_price": 0.055149,
+      "aum": 95999335.82,
+      "investor_count": 70,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FFF": {
+      "code": "FFF",
+      "current_date": "2026-11-10",
+      "current_price": 67.744829,
+      "aum": 1094086773.19,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FFH": {
+      "code": "FFH",
+      "current_date": "2026-11-10",
+      "current_price": 8.885843,
+      "aum": 1423146670.94,
+      "investor_count": 1880,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FFO": {
+      "code": "FFO",
+      "current_date": "2026-11-10",
+      "current_price": 62.17028,
+      "aum": 112021766.89,
+      "investor_count": 7,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FFP": {
+      "code": "FFP",
+      "current_date": "2026-11-10",
+      "current_price": 7.914824,
+      "aum": 1764437761.89,
+      "investor_count": 2108,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FFZ": {
+      "code": "FFZ",
+      "current_date": "2026-11-10",
+      "current_price": 0.084805,
+      "aum": 362565958.87,
+      "investor_count": 3640,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FGA": {
+      "code": "FGA",
+      "current_date": "2026-11-10",
+      "current_price": 554.75,
+      "aum": 23762574683.9,
+      "investor_count": 0,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FGF": {
+      "code": "FGF",
+      "current_date": "2026-11-10",
+      "current_price": 0.081911,
+      "aum": 1212545911.48,
+      "investor_count": 189972,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FGH": {
+      "code": "FGH",
+      "current_date": "2026-11-10",
+      "current_price": 0.105668,
+      "aum": 483907728.48,
+      "investor_count": 119524,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FGS": {
+      "code": "FGS",
+      "current_date": "2026-11-10",
+      "current_price": 523.75,
+      "aum": 35603423080.08,
+      "investor_count": 0,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FHP": {
+      "code": "FHP",
+      "current_date": "2026-11-10",
+      "current_price": 3.69045,
+      "aum": 7725449850.81,
+      "investor_count": 47,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FHZ": {
+      "code": "FHZ",
+      "current_date": "2026-11-10",
+      "current_price": 67.614102,
+      "aum": 768955511.06,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FI3": {
+      "code": "FI3",
+      "current_date": "2026-11-10",
+      "current_price": 850.587168,
+      "aum": 1638605752.36,
+      "investor_count": 9673,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FI5": {
+      "code": "FI5",
+      "current_date": "2026-11-10",
+      "current_price": 803.578274,
+      "aum": 113913488999.58,
+      "investor_count": 52575,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIB": {
+      "code": "FIB",
+      "current_date": "2026-11-10",
+      "current_price": 0.493165,
+      "aum": 4387008604.98,
+      "investor_count": 11266,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIC": {
+      "code": "FIC",
+      "current_date": "2026-11-10",
+      "current_price": 0.169845,
+      "aum": 103184619.35,
+      "investor_count": 1693,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FID": {
+      "code": "FID",
+      "current_date": "2026-11-10",
+      "current_price": 0.988099,
+      "aum": 760175752.44,
+      "investor_count": 1549,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIE": {
+      "code": "FIE",
+      "current_date": "2026-11-10",
+      "current_price": 0.103091,
+      "aum": 270937038.29,
+      "investor_count": 38296,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIF": {
+      "code": "FIF",
+      "current_date": "2026-11-10",
+      "current_price": 0.194156,
+      "aum": 370583040.41,
+      "investor_count": 4276,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIG": {
+      "code": "FIG",
+      "current_date": "2026-11-10",
+      "current_price": 0.167041,
+      "aum": 104499562.09,
+      "investor_count": 1537,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIH": {
+      "code": "FIH",
+      "current_date": "2026-11-10",
+      "current_price": 0.160246,
+      "aum": 77741328.9,
+      "investor_count": 1224,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FII": {
+      "code": "FII",
+      "current_date": "2026-11-10",
+      "current_price": 0.104543,
+      "aum": 126677692.71,
+      "investor_count": 122089,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIK": {
+      "code": "FIK",
+      "current_date": "2026-11-10",
+      "current_price": 0.211564,
+      "aum": 198745510.27,
+      "investor_count": 1285,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIL": {
+      "code": "FIL",
+      "current_date": "2026-11-10",
+      "current_price": 0.402308,
+      "aum": 15023420597.57,
+      "investor_count": 20485,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIM": {
+      "code": "FIM",
+      "current_date": "2026-11-10",
+      "current_price": 0.177313,
+      "aum": 92482974.09,
+      "investor_count": 2706,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIR": {
+      "code": "FIR",
+      "current_date": "2026-11-10",
+      "current_price": 0.281944,
+      "aum": 454000432.4,
+      "investor_count": 4621,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIS": {
+      "code": "FIS",
+      "current_date": "2026-11-10",
+      "current_price": 0.11042,
+      "aum": 29844277.25,
+      "investor_count": 1224,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIT": {
+      "code": "FIT",
+      "current_date": "2026-11-10",
+      "current_price": 0.242703,
+      "aum": 203633094.51,
+      "investor_count": 488,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIU": {
+      "code": "FIU",
+      "current_date": "2026-11-10",
+      "current_price": 0.22138,
+      "aum": 77308648.63,
+      "investor_count": 995,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIV": {
+      "code": "FIV",
+      "current_date": "2026-11-10",
+      "current_price": 0.178123,
+      "aum": 49899585.26,
+      "investor_count": 808,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIY": {
+      "code": "FIY",
+      "current_date": "2026-11-10",
+      "current_price": 0.106936,
+      "aum": 298639094.94,
+      "investor_count": 41032,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FIZ": {
+      "code": "FIZ",
+      "current_date": "2026-11-10",
+      "current_price": 0.105717,
+      "aum": 89401854.03,
+      "investor_count": 1255,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FJB": {
+      "code": "FJB",
+      "current_date": "2026-11-10",
+      "current_price": 6.854849,
+      "aum": 247807723.56,
+      "investor_count": 592,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FJC": {
+      "code": "FJC",
+      "current_date": "2026-11-10",
+      "current_price": 63.605449,
+      "aum": 1253308742.97,
+      "investor_count": 93,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FJG": {
+      "code": "FJG",
+      "current_date": "2026-11-10",
+      "current_price": 0.141219,
+      "aum": 695136348.13,
+      "investor_count": 6257,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FJM": {
+      "code": "FJM",
+      "current_date": "2026-11-10",
+      "current_price": 61.011134,
+      "aum": 7714935596.12,
+      "investor_count": 1526,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FJN": {
+      "code": "FJN",
+      "current_date": "2026-11-10",
+      "current_price": 60.779919,
+      "aum": 4847800605.74,
+      "investor_count": 1157,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FJZ": {
+      "code": "FJZ",
+      "current_date": "2026-11-10",
+      "current_price": 65.609646,
+      "aum": 1117546943.03,
+      "investor_count": 618,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FKE": {
+      "code": "FKE",
+      "current_date": "2026-11-10",
+      "current_price": 60.248103,
+      "aum": 50850252558.98,
+      "investor_count": 11955,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FKV": {
+      "code": "FKV",
+      "current_date": "2026-11-10",
+      "current_price": 50.33838,
+      "aum": 2401644093.2,
+      "investor_count": 471,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FLS": {
+      "code": "FLS",
+      "current_date": "2026-11-10",
+      "current_price": 62.580696,
+      "aum": 3835772613.48,
+      "investor_count": 1978,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FLY": {
+      "code": "FLY",
+      "current_date": "2026-11-10",
+      "current_price": 1.448646,
+      "aum": 75967852.0,
+      "investor_count": 1661,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FMG": {
+      "code": "FMG",
+      "current_date": "2026-11-10",
+      "current_price": 2.83352,
+      "aum": 9932651832.57,
+      "investor_count": 9032,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FMS": {
+      "code": "FMS",
+      "current_date": "2026-11-10",
+      "current_price": 56.694071,
+      "aum": 617724085.89,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FMV": {
+      "code": "FMV",
+      "current_date": "2026-11-10",
+      "current_price": 1.538338,
+      "aum": 176543585.82,
+      "investor_count": 32,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FNO": {
+      "code": "FNO",
+      "current_date": "2026-11-10",
+      "current_price": 0.208851,
+      "aum": 9097961430.24,
+      "investor_count": 5762,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FNT": {
+      "code": "FNT",
+      "current_date": "2026-11-10",
+      "current_price": 0.028335,
+      "aum": 4045304.92,
+      "investor_count": 1547,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FOA": {
+      "code": "FOA",
+      "current_date": "2026-11-10",
+      "current_price": 0.016286,
+      "aum": 418506075.36,
+      "investor_count": 4859,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FP4": {
+      "code": "FP4",
+      "current_date": "2026-11-10",
+      "current_price": 0.453137,
+      "aum": 72685981.59,
+      "investor_count": 105,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FPE": {
+      "code": "FPE",
+      "current_date": "2026-11-10",
+      "current_price": 78.756333,
+      "aum": 342917991.99,
+      "investor_count": 1287,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FPG": {
+      "code": "FPG",
+      "current_date": "2026-11-10",
+      "current_price": 1.851206,
+      "aum": 612181596.95,
+      "investor_count": 1757,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FPH": {
+      "code": "FPH",
+      "current_date": "2026-11-10",
+      "current_price": 32.527395,
+      "aum": 1112108768.62,
+      "investor_count": 4209,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FPI": {
+      "code": "FPI",
+      "current_date": "2026-11-10",
+      "current_price": 2.858106,
+      "aum": 28344499.83,
+      "investor_count": 144,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FPK": {
+      "code": "FPK",
+      "current_date": "2026-11-10",
+      "current_price": 0.105888,
+      "aum": 305412290.21,
+      "investor_count": 1149,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FPR": {
+      "code": "FPR",
+      "current_date": "2026-11-10",
+      "current_price": 10.303317,
+      "aum": 167400716.02,
+      "investor_count": 27,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FPZ": {
+      "code": "FPZ",
+      "current_date": "2026-11-10",
+      "current_price": 72.913525,
+      "aum": 136821816977.87,
+      "investor_count": 19212,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FR1": {
+      "code": "FR1",
+      "current_date": "2026-11-10",
+      "current_price": 0.201175,
+      "aum": 32079731.75,
+      "investor_count": 19,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FRA": {
+      "code": "FRA",
+      "current_date": "2026-11-10",
+      "current_price": 31.343338,
+      "aum": 512345153.6,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FRC": {
+      "code": "FRC",
+      "current_date": "2026-11-10",
+      "current_price": 0.763781,
+      "aum": 30043263.58,
+      "investor_count": 132,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FRZ": {
+      "code": "FRZ",
+      "current_date": "2026-11-10",
+      "current_price": 15.070019,
+      "aum": 269763037.31,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FS1": {
+      "code": "FS1",
+      "current_date": "2026-11-10",
+      "current_price": 1.295144,
+      "aum": 97392639.01,
+      "investor_count": 189,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FS2": {
+      "code": "FS2",
+      "current_date": "2026-11-10",
+      "current_price": 1.563702,
+      "aum": 2673969.96,
+      "investor_count": 23,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FS3": {
+      "code": "FS3",
+      "current_date": "2026-11-10",
+      "current_price": 0.795704,
+      "aum": 489584711.18,
+      "investor_count": 20,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FS4": {
+      "code": "FS4",
+      "current_date": "2026-11-10",
+      "current_price": 0.137142,
+      "aum": 71650331.72,
+      "investor_count": 20,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FS5": {
+      "code": "FS5",
+      "current_date": "2026-11-10",
+      "current_price": 1.758183,
+      "aum": 19697574.77,
+      "investor_count": 26,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FS6": {
+      "code": "FS6",
+      "current_date": "2026-11-10",
+      "current_price": 2.022189,
+      "aum": 184699776.76,
+      "investor_count": 194,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSF": {
+      "code": "FSF",
+      "current_date": "2026-11-10",
+      "current_price": 7.494168,
+      "aum": 11116947595.36,
+      "investor_count": 6827,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSG": {
+      "code": "FSG",
+      "current_date": "2026-11-10",
+      "current_price": 3.510086,
+      "aum": 550791461.8,
+      "investor_count": 631,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSH": {
+      "code": "FSH",
+      "current_date": "2026-11-10",
+      "current_price": 4.461914,
+      "aum": 304775835.01,
+      "investor_count": 417,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSK": {
+      "code": "FSK",
+      "current_date": "2026-11-10",
+      "current_price": 6.617853,
+      "aum": 4884318306.43,
+      "investor_count": 2655,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSM": {
+      "code": "FSM",
+      "current_date": "2026-11-10",
+      "current_price": 0.381337,
+      "aum": 105774382.67,
+      "investor_count": 17,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSP": {
+      "code": "FSP",
+      "current_date": "2026-11-10",
+      "current_price": 10.623978,
+      "aum": 36992.69,
+      "investor_count": 11,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSR": {
+      "code": "FSR",
+      "current_date": "2026-11-10",
+      "current_price": 48.35306,
+      "aum": 5627050366.15,
+      "investor_count": 2297,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSU": {
+      "code": "FSU",
+      "current_date": "2026-11-10",
+      "current_price": 1.108498,
+      "aum": 1553665943.62,
+      "investor_count": 9924,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FSV": {
+      "code": "FSV",
+      "current_date": "2026-11-10",
+      "current_price": 56.22332,
+      "aum": 10197223480.58,
+      "investor_count": 1633,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FTL": {
+      "code": "FTL",
+      "current_date": "2026-11-10",
+      "current_price": 1.656746,
+      "aum": 115584681.56,
+      "investor_count": 568,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FTM": {
+      "code": "FTM",
+      "current_date": "2026-11-10",
+      "current_price": 50.044945,
+      "aum": 200084595.11,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FTY": {
+      "code": "FTY",
+      "current_date": "2026-11-10",
+      "current_price": 50.224592,
+      "aum": 8220259007.32,
+      "investor_count": 1224,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FUA": {
+      "code": "FUA",
+      "current_date": "2026-11-10",
+      "current_price": 4.662805,
+      "aum": 264943105.79,
+      "investor_count": 4389,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FUB": {
+      "code": "FUB",
+      "current_date": "2026-11-10",
+      "current_price": 0.781463,
+      "aum": 744769016.78,
+      "investor_count": 2014,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FUM": {
+      "code": "FUM",
+      "current_date": "2026-11-10",
+      "current_price": 65.776084,
+      "aum": 472997923.96,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FUN": {
+      "code": "FUN",
+      "current_date": "2026-11-10",
+      "current_price": 1.681743,
+      "aum": 3625067373.45,
+      "investor_count": 693,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FUP": {
+      "code": "FUP",
+      "current_date": "2026-11-10",
+      "current_price": 77.278509,
+      "aum": 204130564.38,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FUS": {
+      "code": "FUS",
+      "current_date": "2026-11-10",
+      "current_price": 4664.0,
+      "aum": 1492957983.35,
+      "investor_count": 0,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FVI": {
+      "code": "FVI",
+      "current_date": "2026-11-10",
+      "current_price": 0.028774,
+      "aum": 33431918.1,
+      "investor_count": 927,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FVL": {
+      "code": "FVL",
+      "current_date": "2026-11-10",
+      "current_price": 5.383416,
+      "aum": 1529277536.26,
+      "investor_count": 79,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYA": {
+      "code": "FYA",
+      "current_date": "2026-11-10",
+      "current_price": 0.053109,
+      "aum": 599994043.02,
+      "investor_count": 98,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYB": {
+      "code": "FYB",
+      "current_date": "2026-11-10",
+      "current_price": 102.221286,
+      "aum": 203992082.57,
+      "investor_count": 9,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYD": {
+      "code": "FYD",
+      "current_date": "2026-11-10",
+      "current_price": 10.987367,
+      "aum": 2645356716.34,
+      "investor_count": 4683,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYF": {
+      "code": "FYF",
+      "current_date": "2026-11-10",
+      "current_price": 0.115738,
+      "aum": 40590431.25,
+      "investor_count": 11,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYG": {
+      "code": "FYG",
+      "current_date": "2026-11-10",
+      "current_price": 17.496529,
+      "aum": 100781211.52,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYH": {
+      "code": "FYH",
+      "current_date": "2026-11-10",
+      "current_price": 83.941829,
+      "aum": 601917641.21,
+      "investor_count": 21,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYI": {
+      "code": "FYI",
+      "current_date": "2026-11-10",
+      "current_price": 11.374942,
+      "aum": 206830067.18,
+      "investor_count": 245,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYL": {
+      "code": "FYL",
+      "current_date": "2026-11-10",
+      "current_price": 0.124623,
+      "aum": 403680982.87,
+      "investor_count": 333457,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYM": {
+      "code": "FYM",
+      "current_date": "2026-11-10",
+      "current_price": 0.464101,
+      "aum": 347016589.38,
+      "investor_count": 15,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYN": {
+      "code": "FYN",
+      "current_date": "2026-11-10",
+      "current_price": 0.175412,
+      "aum": 224300374.8,
+      "investor_count": 3370,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYO": {
+      "code": "FYO",
+      "current_date": "2026-11-10",
+      "current_price": 1.286387,
+      "aum": 2296561913.28,
+      "investor_count": 1644,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYT": {
+      "code": "FYT",
+      "current_date": "2026-11-10",
+      "current_price": 0.395492,
+      "aum": 4237243724.2,
+      "investor_count": 95767,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYU": {
+      "code": "FYU",
+      "current_date": "2026-11-10",
+      "current_price": 0.148205,
+      "aum": 638981447.5,
+      "investor_count": 7738,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYY": {
+      "code": "FYY",
+      "current_date": "2026-11-10",
+      "current_price": 0.107584,
+      "aum": 484555924.73,
+      "investor_count": 383929,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FYZ": {
+      "code": "FYZ",
+      "current_date": "2026-11-10",
+      "current_price": 5.65273,
+      "aum": 245422758.19,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FZJ": {
+      "code": "FZJ",
+      "current_date": "2026-11-10",
+      "current_price": 5.771502,
+      "aum": 995989792.94,
+      "investor_count": 1903,
+      "source": "Fonoloji/TEFAS"
+    },
+    "FZP": {
+      "code": "FZP",
+      "current_date": "2026-11-10",
+      "current_price": 6.93458,
+      "aum": 722146588.55,
+      "investor_count": 445,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GA1": {
+      "code": "GA1",
+      "current_date": "2026-11-10",
+      "current_price": 2.139665,
+      "aum": 338198889.72,
+      "investor_count": 1516,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAC": {
+      "code": "GAC",
+      "current_date": "2026-11-10",
+      "current_price": 80.486908,
+      "aum": 444905631.85,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAE": {
+      "code": "GAE",
+      "current_date": "2026-11-10",
+      "current_price": 0.406416,
+      "aum": 1306485908.21,
+      "investor_count": 14651,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAF": {
+      "code": "GAF",
+      "current_date": "2026-11-10",
+      "current_price": 1.53467,
+      "aum": 162634954.9,
+      "investor_count": 1190,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAG": {
+      "code": "GAG",
+      "current_date": "2026-11-10",
+      "current_price": 19.150257,
+      "aum": 601519447.33,
+      "investor_count": 163,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAH": {
+      "code": "GAH",
+      "current_date": "2026-11-10",
+      "current_price": 12.860942,
+      "aum": 333290204.37,
+      "investor_count": 2392,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAJ": {
+      "code": "GAJ",
+      "current_date": "2026-11-10",
+      "current_price": 66.551984,
+      "aum": 528094514.83,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAL": {
+      "code": "GAL",
+      "current_date": "2026-11-10",
+      "current_price": 442.212899,
+      "aum": 84308630787.47,
+      "investor_count": 58769,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAN": {
+      "code": "GAN",
+      "current_date": "2026-11-10",
+      "current_price": 199.382532,
+      "aum": 956836.77,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAS": {
+      "code": "GAS",
+      "current_date": "2026-11-10",
+      "current_price": 0.333646,
+      "aum": 3002174888.4,
+      "investor_count": 2050,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAU": {
+      "code": "GAU",
+      "current_date": "2026-11-10",
+      "current_price": 70.233357,
+      "aum": 2272774477.42,
+      "investor_count": 5,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GAV": {
+      "code": "GAV",
+      "current_date": "2026-11-10",
+      "current_price": 65.458526,
+      "aum": 257972051.54,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBC": {
+      "code": "GBC",
+      "current_date": "2026-11-10",
+      "current_price": 0.296868,
+      "aum": 296699578.52,
+      "investor_count": 1472,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBG": {
+      "code": "GBG",
+      "current_date": "2026-11-10",
+      "current_price": 0.564326,
+      "aum": 148902984.25,
+      "investor_count": 3327,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBH": {
+      "code": "GBH",
+      "current_date": "2026-11-10",
+      "current_price": 3.734465,
+      "aum": 1949265850.21,
+      "investor_count": 2533,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBJ": {
+      "code": "GBJ",
+      "current_date": "2026-11-10",
+      "current_price": 1.542948,
+      "aum": 633628574.44,
+      "investor_count": 1597,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBL": {
+      "code": "GBL",
+      "current_date": "2026-11-10",
+      "current_price": 0.931286,
+      "aum": 2432780867.0,
+      "investor_count": 1554,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBN": {
+      "code": "GBN",
+      "current_date": "2026-11-10",
+      "current_price": 7.426253,
+      "aum": 6688386748.41,
+      "investor_count": 377,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBP": {
+      "code": "GBP",
+      "current_date": "2026-11-10",
+      "current_price": 71.354105,
+      "aum": 3851978622.17,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBV": {
+      "code": "GBV",
+      "current_date": "2026-11-10",
+      "current_price": 12.226209,
+      "aum": 1742575831.25,
+      "investor_count": 19193,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GBZ": {
+      "code": "GBZ",
+      "current_date": "2026-11-10",
+      "current_price": 3.440192,
+      "aum": 741988603.31,
+      "investor_count": 2587,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCA": {
+      "code": "GCA",
+      "current_date": "2026-11-10",
+      "current_price": 72.516357,
+      "aum": 835198651.96,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCC": {
+      "code": "GCC",
+      "current_date": "2026-11-10",
+      "current_price": 5.748329,
+      "aum": 1276476172.42,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCD": {
+      "code": "GCD",
+      "current_date": "2026-11-10",
+      "current_price": 3.63487,
+      "aum": 764594237.16,
+      "investor_count": 19,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCI": {
+      "code": "GCI",
+      "current_date": "2026-11-10",
+      "current_price": 66.976808,
+      "aum": 229455578.26,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCK": {
+      "code": "GCK",
+      "current_date": "2026-11-10",
+      "current_price": 0.114855,
+      "aum": 5727554837.26,
+      "investor_count": 756176,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCN": {
+      "code": "GCN",
+      "current_date": "2026-11-10",
+      "current_price": 0.059843,
+      "aum": 4416802368.54,
+      "investor_count": 67755,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCS": {
+      "code": "GCS",
+      "current_date": "2026-11-10",
+      "current_price": 0.118474,
+      "aum": 8343549449.32,
+      "investor_count": 980933,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCT": {
+      "code": "GCT",
+      "current_date": "2026-11-10",
+      "current_price": 0.07583,
+      "aum": 3785912606.7,
+      "investor_count": 53770,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCV": {
+      "code": "GCV",
+      "current_date": "2026-11-10",
+      "current_price": 0.119512,
+      "aum": 2021180889.22,
+      "investor_count": 357745,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCY": {
+      "code": "GCY",
+      "current_date": "2026-11-10",
+      "current_price": 0.055918,
+      "aum": 2882875505.93,
+      "investor_count": 25023,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GCZ": {
+      "code": "GCZ",
+      "current_date": "2026-11-10",
+      "current_price": 63.696426,
+      "aum": 12402649.53,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GDJ": {
+      "code": "GDJ",
+      "current_date": "2026-11-10",
+      "current_price": 64.91371,
+      "aum": 525893747.35,
+      "investor_count": 4,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GDP": {
+      "code": "GDP",
+      "current_date": "2026-11-10",
+      "current_price": 69.120107,
+      "aum": 1606078251.83,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GDV": {
+      "code": "GDV",
+      "current_date": "2026-11-10",
+      "current_price": 0.104726,
+      "aum": 1430539524.32,
+      "investor_count": 230722,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEA": {
+      "code": "GEA",
+      "current_date": "2026-11-10",
+      "current_price": 0.26205,
+      "aum": 3642418862.18,
+      "investor_count": 69132,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEC": {
+      "code": "GEC",
+      "current_date": "2026-11-10",
+      "current_price": 78.979516,
+      "aum": 184830626.78,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GED": {
+      "code": "GED",
+      "current_date": "2026-11-10",
+      "current_price": 0.204915,
+      "aum": 2004041712.54,
+      "investor_count": 38263,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEF": {
+      "code": "GEF",
+      "current_date": "2026-11-10",
+      "current_price": 1.014609,
+      "aum": 659211592.88,
+      "investor_count": 4013,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEG": {
+      "code": "GEG",
+      "current_date": "2026-11-10",
+      "current_price": 0.674259,
+      "aum": 3675579337.03,
+      "investor_count": 10189,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEH": {
+      "code": "GEH",
+      "current_date": "2026-11-10",
+      "current_price": 2.640062,
+      "aum": 20527728371.28,
+      "investor_count": 285154,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEK": {
+      "code": "GEK",
+      "current_date": "2026-11-10",
+      "current_price": 0.461823,
+      "aum": 3754969794.77,
+      "investor_count": 154172,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEL": {
+      "code": "GEL",
+      "current_date": "2026-11-10",
+      "current_price": 0.481147,
+      "aum": 130325954800.79,
+      "investor_count": 466629,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GES": {
+      "code": "GES",
+      "current_date": "2026-11-10",
+      "current_price": 0.163255,
+      "aum": 1129800378.51,
+      "investor_count": 25911,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEU": {
+      "code": "GEU",
+      "current_date": "2026-11-10",
+      "current_price": 0.597913,
+      "aum": 5700756641.22,
+      "investor_count": 33527,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEV": {
+      "code": "GEV",
+      "current_date": "2026-11-10",
+      "current_price": 0.072929,
+      "aum": 163817004198.69,
+      "investor_count": 1192186,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GEZ": {
+      "code": "GEZ",
+      "current_date": "2026-11-10",
+      "current_price": 64.457488,
+      "aum": 422502720.28,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GFB": {
+      "code": "GFB",
+      "current_date": "2026-11-10",
+      "current_price": 73.468675,
+      "aum": 429902832.75,
+      "investor_count": 4,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GFD": {
+      "code": "GFD",
+      "current_date": "2026-11-10",
+      "current_price": 73.892424,
+      "aum": 113309746.34,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GFH": {
+      "code": "GFH",
+      "current_date": "2026-11-10",
+      "current_price": 0.070565,
+      "aum": 1611439967.09,
+      "investor_count": 82587,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GFI": {
+      "code": "GFI",
+      "current_date": "2026-11-10",
+      "current_price": 56.218418,
+      "aum": 1725816203.39,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GFL": {
+      "code": "GFL",
+      "current_date": "2026-11-10",
+      "current_price": 9.330572,
+      "aum": 275129887.69,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GFN": {
+      "code": "GFN",
+      "current_date": "2026-11-10",
+      "current_price": 83.375699,
+      "aum": 964943314.55,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GFY": {
+      "code": "GFY",
+      "current_date": "2026-11-10",
+      "current_price": 73.74583,
+      "aum": 429407733.86,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGA": {
+      "code": "GGA",
+      "current_date": "2026-11-10",
+      "current_price": 69.790317,
+      "aum": 7909823456.13,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGC": {
+      "code": "GGC",
+      "current_date": "2026-11-10",
+      "current_price": 5.09424,
+      "aum": 178975934.14,
+      "investor_count": 5,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGD": {
+      "code": "GGD",
+      "current_date": "2026-11-10",
+      "current_price": 69.107967,
+      "aum": 6135849214.1,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGJ": {
+      "code": "GGJ",
+      "current_date": "2026-11-10",
+      "current_price": 0.011798,
+      "aum": 5333220043.96,
+      "investor_count": 51954,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGK": {
+      "code": "GGK",
+      "current_date": "2026-11-10",
+      "current_price": 13.627806,
+      "aum": 1781103270.2,
+      "investor_count": 9479,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGM": {
+      "code": "GGM",
+      "current_date": "2026-11-10",
+      "current_price": 9.188665,
+      "aum": 3145196758.43,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGN": {
+      "code": "GGN",
+      "current_date": "2026-11-10",
+      "current_price": 73.220865,
+      "aum": 509868077.92,
+      "investor_count": 4,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGP": {
+      "code": "GGP",
+      "current_date": "2026-11-10",
+      "current_price": 4.333616,
+      "aum": 30018.96,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GGR": {
+      "code": "GGR",
+      "current_date": "2026-11-10",
+      "current_price": 71.194831,
+      "aum": 1657901924.33,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHA": {
+      "code": "GHA",
+      "current_date": "2026-11-10",
+      "current_price": 0.759388,
+      "aum": 107118588490.03,
+      "investor_count": 720759,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHD": {
+      "code": "GHD",
+      "current_date": "2026-11-10",
+      "current_price": 0.15375,
+      "aum": 3983896536.79,
+      "investor_count": 188758,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHE": {
+      "code": "GHE",
+      "current_date": "2026-11-10",
+      "current_price": 1.114183,
+      "aum": 2674075331.8,
+      "investor_count": 46389,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHF": {
+      "code": "GHF",
+      "current_date": "2026-11-10",
+      "current_price": 0.322556,
+      "aum": 756703574.31,
+      "investor_count": 11675,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHG": {
+      "code": "GHG",
+      "current_date": "2026-11-10",
+      "current_price": 1.260169,
+      "aum": 6005388567.09,
+      "investor_count": 57409,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHH": {
+      "code": "GHH",
+      "current_date": "2026-11-10",
+      "current_price": 0.384003,
+      "aum": 3768090960.19,
+      "investor_count": 72903,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHI": {
+      "code": "GHI",
+      "current_date": "2026-11-10",
+      "current_price": 0.11509,
+      "aum": 33315283115.53,
+      "investor_count": 1641208,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHJ": {
+      "code": "GHJ",
+      "current_date": "2026-11-10",
+      "current_price": 0.259365,
+      "aum": 837977082.21,
+      "investor_count": 9831,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHK": {
+      "code": "GHK",
+      "current_date": "2026-11-10",
+      "current_price": 0.882683,
+      "aum": 1146566276.67,
+      "investor_count": 8018,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHL": {
+      "code": "GHL",
+      "current_date": "2026-11-10",
+      "current_price": 0.15885,
+      "aum": 11158333312.53,
+      "investor_count": 906584,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHM": {
+      "code": "GHM",
+      "current_date": "2026-11-10",
+      "current_price": 0.2268,
+      "aum": 536925239.48,
+      "investor_count": 7010,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHN": {
+      "code": "GHN",
+      "current_date": "2026-11-10",
+      "current_price": 0.212043,
+      "aum": 500913800.84,
+      "investor_count": 7030,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHO": {
+      "code": "GHO",
+      "current_date": "2026-11-10",
+      "current_price": 0.388449,
+      "aum": 15160212278.87,
+      "investor_count": 164980,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHP": {
+      "code": "GHP",
+      "current_date": "2026-11-10",
+      "current_price": 0.151461,
+      "aum": 596259141.52,
+      "investor_count": 7195,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHS": {
+      "code": "GHS",
+      "current_date": "2026-11-10",
+      "current_price": 35.68584,
+      "aum": 2572546723.64,
+      "investor_count": 14114,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHT": {
+      "code": "GHT",
+      "current_date": "2026-11-10",
+      "current_price": 0.126751,
+      "aum": 10528122424.42,
+      "investor_count": 395937,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHU": {
+      "code": "GHU",
+      "current_date": "2026-11-10",
+      "current_price": 0.286112,
+      "aum": 1218054297.59,
+      "investor_count": 18411,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHV": {
+      "code": "GHV",
+      "current_date": "2026-11-10",
+      "current_price": 0.097631,
+      "aum": 443923580.74,
+      "investor_count": 9502,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHY": {
+      "code": "GHY",
+      "current_date": "2026-11-10",
+      "current_price": 0.239025,
+      "aum": 675228111.44,
+      "investor_count": 13549,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GHZ": {
+      "code": "GHZ",
+      "current_date": "2026-11-10",
+      "current_price": 0.082755,
+      "aum": 369727444.57,
+      "investor_count": 7733,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GID": {
+      "code": "GID",
+      "current_date": "2026-11-10",
+      "current_price": 1.406819,
+      "aum": 27382818.04,
+      "investor_count": 1659,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GIE": {
+      "code": "GIE",
+      "current_date": "2026-11-10",
+      "current_price": 3.471783,
+      "aum": 65865792.29,
+      "investor_count": 4227,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GIH": {
+      "code": "GIH",
+      "current_date": "2026-11-10",
+      "current_price": 1.63619,
+      "aum": 4797675.6,
+      "investor_count": 457,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GJA": {
+      "code": "GJA",
+      "current_date": "2026-11-10",
+      "current_price": 68.849516,
+      "aum": 982025155.24,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GJB": {
+      "code": "GJB",
+      "current_date": "2026-11-10",
+      "current_price": 9.764469,
+      "aum": 59703115.69,
+      "investor_count": 724,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GJD": {
+      "code": "GJD",
+      "current_date": "2026-11-10",
+      "current_price": 67.723432,
+      "aum": 421696676.03,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GJE": {
+      "code": "GJE",
+      "current_date": "2026-11-10",
+      "current_price": 67.026252,
+      "aum": 32493991.94,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GJF": {
+      "code": "GJF",
+      "current_date": "2026-11-10",
+      "current_price": 66.261162,
+      "aum": 236636763.96,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GJH": {
+      "code": "GJH",
+      "current_date": "2026-11-10",
+      "current_price": 4.257213,
+      "aum": 89848968651.7,
+      "investor_count": 20860,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GJM": {
+      "code": "GJM",
+      "current_date": "2026-11-10",
+      "current_price": 34.512794,
+      "aum": 347683922.33,
+      "investor_count": 61,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GJO": {
+      "code": "GJO",
+      "current_date": "2026-11-10",
+      "current_price": 62.912627,
+      "aum": 615250822.7,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GKB": {
+      "code": "GKB",
+      "current_date": "2026-11-10",
+      "current_price": 0.206958,
+      "aum": 3647679757.61,
+      "investor_count": 57364,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GKF": {
+      "code": "GKF",
+      "current_date": "2026-11-10",
+      "current_price": 3.911915,
+      "aum": 46381582.45,
+      "investor_count": 580,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GKG": {
+      "code": "GKG",
+      "current_date": "2026-11-10",
+      "current_price": 1.339795,
+      "aum": 48509823.21,
+      "investor_count": 1619,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GKH": {
+      "code": "GKH",
+      "current_date": "2026-11-10",
+      "current_price": 4.847322,
+      "aum": 3014107022.47,
+      "investor_count": 1749,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GKK": {
+      "code": "GKK",
+      "current_date": "2026-11-10",
+      "current_price": 68.54219,
+      "aum": 2098597845.29,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GKL": {
+      "code": "GKL",
+      "current_date": "2026-11-10",
+      "current_price": 14.147962,
+      "aum": 795811632.49,
+      "investor_count": 4,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GKV": {
+      "code": "GKV",
+      "current_date": "2026-11-10",
+      "current_price": 7.06868,
+      "aum": 201181034.07,
+      "investor_count": 3728,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GL1": {
+      "code": "GL1",
+      "current_date": "2026-11-10",
+      "current_price": 1370.37814,
+      "aum": 902676302.86,
+      "investor_count": 898,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GLG": {
+      "code": "GLG",
+      "current_date": "2026-11-10",
+      "current_price": 6.941234,
+      "aum": 13586340.42,
+      "investor_count": 214,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GLL": {
+      "code": "GLL",
+      "current_date": "2026-11-10",
+      "current_price": 0.990421,
+      "aum": 8467799.67,
+      "investor_count": 37,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GLM": {
+      "code": "GLM",
+      "current_date": "2026-11-10",
+      "current_price": 0.462373,
+      "aum": 437208.98,
+      "investor_count": 11,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GLP": {
+      "code": "GLP",
+      "current_date": "2026-11-10",
+      "current_price": 72.145503,
+      "aum": 591738927.76,
+      "investor_count": 4,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GLS": {
+      "code": "GLS",
+      "current_date": "2026-11-10",
+      "current_price": 0.183621,
+      "aum": 323365701.7,
+      "investor_count": 1342,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GLV": {
+      "code": "GLV",
+      "current_date": "2026-11-10",
+      "current_price": 7.376206,
+      "aum": 70893247.39,
+      "investor_count": 28,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMA": {
+      "code": "GMA",
+      "current_date": "2026-11-10",
+      "current_price": 2.19627,
+      "aum": 2037863933.3,
+      "investor_count": 1300,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMC": {
+      "code": "GMC",
+      "current_date": "2026-11-10",
+      "current_price": 6.504381,
+      "aum": 3028330996.79,
+      "investor_count": 18103,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMD": {
+      "code": "GMD",
+      "current_date": "2026-11-10",
+      "current_price": 2.671495,
+      "aum": 14822572.02,
+      "investor_count": 87,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GME": {
+      "code": "GME",
+      "current_date": "2026-11-10",
+      "current_price": 26.795321,
+      "aum": 378059975.96,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMF": {
+      "code": "GMF",
+      "current_date": "2026-11-10",
+      "current_price": 0.020079,
+      "aum": 15824981550.15,
+      "investor_count": 166392,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMI": {
+      "code": "GMI",
+      "current_date": "2026-11-10",
+      "current_price": 1.147351,
+      "aum": 509471373.07,
+      "investor_count": 4603,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMM": {
+      "code": "GMM",
+      "current_date": "2026-11-10",
+      "current_price": 50.405972,
+      "aum": 467227116.59,
+      "investor_count": 26,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMN": {
+      "code": "GMN",
+      "current_date": "2026-11-10",
+      "current_price": 1.478087,
+      "aum": 47011776.17,
+      "investor_count": 26,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMO": {
+      "code": "GMO",
+      "current_date": "2026-11-10",
+      "current_price": 2.823172,
+      "aum": 2067126459.41,
+      "investor_count": 4,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMP": {
+      "code": "GMP",
+      "current_date": "2026-11-10",
+      "current_price": 64.455493,
+      "aum": 1598779961.81,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMR": {
+      "code": "GMR",
+      "current_date": "2026-11-10",
+      "current_price": 1.09819,
+      "aum": 119445064.09,
+      "investor_count": 3691,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GMZ": {
+      "code": "GMZ",
+      "current_date": "2026-11-10",
+      "current_price": 12.888566,
+      "aum": 343255853.76,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GNH": {
+      "code": "GNH",
+      "current_date": "2026-11-10",
+      "current_price": 1.086664,
+      "aum": 5323993.41,
+      "investor_count": 129,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GNK": {
+      "code": "GNK",
+      "current_date": "2026-11-10",
+      "current_price": 69.960099,
+      "aum": 489719503.1,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GNL": {
+      "code": "GNL",
+      "current_date": "2026-11-10",
+      "current_price": 65.168415,
+      "aum": 1854363601.67,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GNP": {
+      "code": "GNP",
+      "current_date": "2026-11-10",
+      "current_price": 1.590507,
+      "aum": 1236120105.03,
+      "investor_count": 2084,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GNS": {
+      "code": "GNS",
+      "current_date": "2026-11-10",
+      "current_price": 1.362542,
+      "aum": 73278832.57,
+      "investor_count": 1236,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GNZ": {
+      "code": "GNZ",
+      "current_date": "2026-11-10",
+      "current_price": 1.591785,
+      "aum": 2042498.3,
+      "investor_count": 415,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GO1": {
+      "code": "GO1",
+      "current_date": "2026-11-10",
+      "current_price": 4.720643,
+      "aum": 36464779.0,
+      "investor_count": 462,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GO3": {
+      "code": "GO3",
+      "current_date": "2026-11-10",
+      "current_price": 4.480761,
+      "aum": 11338757.93,
+      "investor_count": 334,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GO4": {
+      "code": "GO4",
+      "current_date": "2026-11-10",
+      "current_price": 4.913248,
+      "aum": 20092461.91,
+      "investor_count": 583,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GO6": {
+      "code": "GO6",
+      "current_date": "2026-11-10",
+      "current_price": 4.493643,
+      "aum": 898228741.06,
+      "investor_count": 1917,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GO9": {
+      "code": "GO9",
+      "current_date": "2026-11-10",
+      "current_price": 2.329766,
+      "aum": 143402054.45,
+      "investor_count": 1019,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GOF": {
+      "code": "GOF",
+      "current_date": "2026-11-10",
+      "current_price": 52.43779,
+      "aum": 388408651.72,
+      "investor_count": 366,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GOH": {
+      "code": "GOH",
+      "current_date": "2026-11-10",
+      "current_price": 13.18237,
+      "aum": 432054759.85,
+      "investor_count": 7710,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GOK": {
+      "code": "GOK",
+      "current_date": "2026-11-10",
+      "current_price": 1.060346,
+      "aum": 52898574.94,
+      "investor_count": 10,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GOL": {
+      "code": "GOL",
+      "current_date": "2026-11-10",
+      "current_price": 2.738087,
+      "aum": 4339462685.18,
+      "investor_count": 10875,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GOP": {
+      "code": "GOP",
+      "current_date": "2026-11-10",
+      "current_price": 1.320349,
+      "aum": 243712537.02,
+      "investor_count": 925,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GP1": {
+      "code": "GP1",
+      "current_date": "2026-11-10",
+      "current_price": 3.131511,
+      "aum": 118700311.14,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GP3": {
+      "code": "GP3",
+      "current_date": "2026-11-10",
+      "current_price": 65.21276,
+      "aum": 573473901.09,
+      "investor_count": 419,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPA": {
+      "code": "GPA",
+      "current_date": "2026-11-10",
+      "current_price": 24.272599,
+      "aum": 886214449.09,
+      "investor_count": 5231,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPB": {
+      "code": "GPB",
+      "current_date": "2026-11-10",
+      "current_price": 12.807728,
+      "aum": 1230982905.64,
+      "investor_count": 9192,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPC": {
+      "code": "GPC",
+      "current_date": "2026-11-10",
+      "current_price": 74.97657,
+      "aum": 5771468200.86,
+      "investor_count": 3044,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPF": {
+      "code": "GPF",
+      "current_date": "2026-11-10",
+      "current_price": 8.934647,
+      "aum": 371892969.96,
+      "investor_count": 2465,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPG": {
+      "code": "GPG",
+      "current_date": "2026-11-10",
+      "current_price": 17.585791,
+      "aum": 971422217.87,
+      "investor_count": 2489,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPH": {
+      "code": "GPH",
+      "current_date": "2026-11-10",
+      "current_price": 47.177847,
+      "aum": 2766367.42,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPI": {
+      "code": "GPI",
+      "current_date": "2026-11-10",
+      "current_price": 18.831735,
+      "aum": 696561034.48,
+      "investor_count": 2576,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPJ": {
+      "code": "GPJ",
+      "current_date": "2026-11-10",
+      "current_price": 60.610919,
+      "aum": 886557735.48,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPL": {
+      "code": "GPL",
+      "current_date": "2026-11-10",
+      "current_price": 56.127863,
+      "aum": 97992364235.98,
+      "investor_count": 35778,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPM": {
+      "code": "GPM",
+      "current_date": "2026-11-10",
+      "current_price": 65.132213,
+      "aum": 1357164999.24,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPN": {
+      "code": "GPN",
+      "current_date": "2026-11-10",
+      "current_price": 1.506709,
+      "aum": 6182008646.8,
+      "investor_count": 8222,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPT": {
+      "code": "GPT",
+      "current_date": "2026-11-10",
+      "current_price": 2.534799,
+      "aum": 78517137.26,
+      "investor_count": 2449,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPU": {
+      "code": "GPU",
+      "current_date": "2026-11-10",
+      "current_price": 20.965313,
+      "aum": 327985576.54,
+      "investor_count": 2243,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPV": {
+      "code": "GPV",
+      "current_date": "2026-11-10",
+      "current_price": 67.630905,
+      "aum": 449745515.71,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GPZ": {
+      "code": "GPZ",
+      "current_date": "2026-11-10",
+      "current_price": 2.127998,
+      "aum": 5091438251.16,
+      "investor_count": 878,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GRA": {
+      "code": "GRA",
+      "current_date": "2026-11-10",
+      "current_price": 0.723151,
+      "aum": 10252900333.92,
+      "investor_count": 76765,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GRL": {
+      "code": "GRL",
+      "current_date": "2026-11-10",
+      "current_price": 1.779742,
+      "aum": 134383502.46,
+      "investor_count": 229,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GRO": {
+      "code": "GRO",
+      "current_date": "2026-11-10",
+      "current_price": 57.25277,
+      "aum": 194837559844.97,
+      "investor_count": 26635,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GRT": {
+      "code": "GRT",
+      "current_date": "2026-11-10",
+      "current_price": 1.205708,
+      "aum": 112464013.58,
+      "investor_count": 1559,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GSE": {
+      "code": "GSE",
+      "current_date": "2026-11-10",
+      "current_price": 68.556169,
+      "aum": 1318356385.8,
+      "investor_count": 105,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GSG": {
+      "code": "GSG",
+      "current_date": "2026-11-10",
+      "current_price": 73.815936,
+      "aum": 89766969.76,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GSP": {
+      "code": "GSP",
+      "current_date": "2026-11-10",
+      "current_price": 0.536405,
+      "aum": 3710793398.66,
+      "investor_count": 12302,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GSR": {
+      "code": "GSR",
+      "current_date": "2026-11-10",
+      "current_price": 59.952156,
+      "aum": 278367453.77,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTA": {
+      "code": "GTA",
+      "current_date": "2026-11-10",
+      "current_price": 1.561928,
+      "aum": 23271503198.77,
+      "investor_count": 70565,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTF": {
+      "code": "GTF",
+      "current_date": "2026-11-10",
+      "current_price": 15.925013,
+      "aum": 129221708.09,
+      "investor_count": 448,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTH": {
+      "code": "GTH",
+      "current_date": "2026-11-10",
+      "current_price": 1.313068,
+      "aum": 21425048.77,
+      "investor_count": 586,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTK": {
+      "code": "GTK",
+      "current_date": "2026-11-10",
+      "current_price": 7.411041,
+      "aum": 29862547869.63,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTL": {
+      "code": "GTL",
+      "current_date": "2026-11-10",
+      "current_price": 0.145638,
+      "aum": 182486124272.78,
+      "investor_count": 357333,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTM": {
+      "code": "GTM",
+      "current_date": "2026-11-10",
+      "current_price": 7.301968,
+      "aum": 949816294.13,
+      "investor_count": 12204,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTN": {
+      "code": "GTN",
+      "current_date": "2026-11-10",
+      "current_price": 54.50576,
+      "aum": 1526844503.46,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTY": {
+      "code": "GTY",
+      "current_date": "2026-11-10",
+      "current_price": 6.021014,
+      "aum": 342975770.88,
+      "investor_count": 413,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GTZ": {
+      "code": "GTZ",
+      "current_date": "2026-11-10",
+      "current_price": 9.89646,
+      "aum": 9937937018.53,
+      "investor_count": 55877,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GUA": {
+      "code": "GUA",
+      "current_date": "2026-11-10",
+      "current_price": 6.370126,
+      "aum": 2177696487.41,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GUB": {
+      "code": "GUB",
+      "current_date": "2026-11-10",
+      "current_price": 2.777823,
+      "aum": 5111734280.77,
+      "investor_count": 12088,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GUC": {
+      "code": "GUC",
+      "current_date": "2026-11-10",
+      "current_price": 1.590334,
+      "aum": 1419935240.84,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GUF": {
+      "code": "GUF",
+      "current_date": "2026-11-10",
+      "current_price": 0.781748,
+      "aum": 533305385.63,
+      "investor_count": 3751,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GUH": {
+      "code": "GUH",
+      "current_date": "2026-11-10",
+      "current_price": 0.396267,
+      "aum": 3998319935.42,
+      "investor_count": 37264,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GUK": {
+      "code": "GUK",
+      "current_date": "2026-11-10",
+      "current_price": 1.201446,
+      "aum": 1098262477.79,
+      "investor_count": 2272,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GUM": {
+      "code": "GUM",
+      "current_date": "2026-11-10",
+      "current_price": 10.586218,
+      "aum": 5172832564.7,
+      "investor_count": 48193,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GUV": {
+      "code": "GUV",
+      "current_date": "2026-11-10",
+      "current_price": 1.830704,
+      "aum": 719855621.17,
+      "investor_count": 1619,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GVA": {
+      "code": "GVA",
+      "current_date": "2026-11-10",
+      "current_price": 3.716802,
+      "aum": 76213708.72,
+      "investor_count": 3074,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GVB": {
+      "code": "GVB",
+      "current_date": "2026-11-10",
+      "current_price": 70.448253,
+      "aum": 3698507918.89,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GVC": {
+      "code": "GVC",
+      "current_date": "2026-11-10",
+      "current_price": 66.751891,
+      "aum": 316355102.83,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GVD": {
+      "code": "GVD",
+      "current_date": "2026-11-10",
+      "current_price": 18.470637,
+      "aum": 408478.14,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GVI": {
+      "code": "GVI",
+      "current_date": "2026-11-10",
+      "current_price": 5.356648,
+      "aum": 895311359.8,
+      "investor_count": 4045,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GVL": {
+      "code": "GVL",
+      "current_date": "2026-11-10",
+      "current_price": 69.587181,
+      "aum": 547798220.0,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GVZ": {
+      "code": "GVZ",
+      "current_date": "2026-11-10",
+      "current_price": 74.385372,
+      "aum": 411600597.66,
+      "investor_count": 2,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GYC": {
+      "code": "GYC",
+      "current_date": "2026-11-10",
+      "current_price": 4.39744,
+      "aum": 22075515238.87,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GYG": {
+      "code": "GYG",
+      "current_date": "2026-11-10",
+      "current_price": 72.325173,
+      "aum": 508899589.71,
+      "investor_count": 4,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GYK": {
+      "code": "GYK",
+      "current_date": "2026-11-10",
+      "current_price": 0.123218,
+      "aum": 83489672.51,
+      "investor_count": 251,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GYL": {
+      "code": "GYL",
+      "current_date": "2026-11-10",
+      "current_price": 15.769962,
+      "aum": 902358026.79,
+      "investor_count": 6897,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GYN": {
+      "code": "GYN",
+      "current_date": "2026-11-10",
+      "current_price": 72.373837,
+      "aum": 1491882800.03,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GYR": {
+      "code": "GYR",
+      "current_date": "2026-11-10",
+      "current_price": 65.409751,
+      "aum": 602462793.91,
+      "investor_count": 5,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GZB": {
+      "code": "GZB",
+      "current_date": "2026-11-10",
+      "current_price": 8.019133,
+      "aum": 1443444018.81,
+      "investor_count": 1,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GZD": {
+      "code": "GZD",
+      "current_date": "2026-11-10",
+      "current_price": 64.648465,
+      "aum": 51664532.31,
+      "investor_count": 3,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GZE": {
+      "code": "GZE",
+      "current_date": "2026-11-10",
+      "current_price": 7.685699,
+      "aum": 1332864183.17,
+      "investor_count": 3591,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GZG": {
+      "code": "GZG",
+      "current_date": "2026-11-10",
+      "current_price": 7.735395,
+      "aum": 378284593.17,
+      "investor_count": 3583,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GZH": {
+      "code": "GZH",
+      "current_date": "2026-11-10",
+      "current_price": 4.585245,
+      "aum": 286306909.42,
+      "investor_count": 4701,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GZJ": {
+      "code": "GZJ",
+      "current_date": "2026-11-10",
+      "current_price": 8.54763,
+      "aum": 1456055838.39,
+      "investor_count": 4539,
+      "source": "Fonoloji/TEFAS"
+    },
+    "GZL": {
+      "code": "GZL",
+      "current_date": "2026-11-10",
+      "current_price": 5.515523,
+      "aum": 381844686.93,
+      "investor_count": 5549,
+      "source": "Fonoloji/TEFAS"
     }
   },
-  "coverage": 0.211,
+  "coverage": 0.3618,
   "per_fund_dates": true,
   "note": "Every fund has its own price date; partial coverage is not advertised as universal freshness."
 }
