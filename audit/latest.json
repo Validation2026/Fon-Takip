@@ -1,26 +1,27 @@
 {
-  "run_at": "2026-11-14T16:51:44+03:00",
+  "run_at": "2026-11-14T23:15:05+03:00",
   "source": "Fonoloji REST API",
   "fund_count": 2540,
   "selected": 400,
-  "accepted_this_run": 378,
+  "accepted_this_run": 365,
   "cached_recent_valid": 2407,
   "coverage": 0.9476,
   "quota_before": {
-    "today": 2568,
-    "this_month": 25034
+    "today": 2152,
+    "this_month": 24618
   },
   "errors": {
-    "invalid_date": 12,
-    "large_aum_change": 10
+    "invalid_date": 24,
+    "invalid_numeric": 2,
+    "large_aum_change": 9
   },
   "price_date_counts": {
     "2026-11-12": 765,
     "2026-11-09": 3,
-    "2026-11-13": 1130,
+    "2026-11-13": 1495,
     "2026-11-10": 6,
     "2026-11-05": 2,
-    "2026-11-11": 500,
+    "2026-11-11": 135,
     "2026-11-06": 1
   },
   "publish_html": true,
